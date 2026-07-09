@@ -1,0 +1,41 @@
+{
+  "project": "AllohFarms",
+  "batch": 1,
+  "status": "gathered - seller onboarding complete",
+  "total_screens": 44,
+  "categories": {
+    "landing": {
+      "count": 1,
+      "description": "Full landing page (hero, products, about, how it works, FAQ, footer)"
+    },
+    "seller-login": {
+      "count": 2,
+      "description": "Seller login - empty and filled form states"
+    },
+    "seller-registration": {
+      "count": 19,
+      "description": "Account type, farm form, email verification, continue-on-phone, QR scan, email sent"
+    },
+    "seller-document-upload": {
+      "count": 8,
+      "description": "Document type selection, drag-drop upload, errors, verification processing, success"
+    },
+    "seller-document-resubmit": {
+      "count": 3,
+      "description": "Resubmit identification - select type, upload, document uploaded"
+    },
+    "seller-mobile-upload": {
+      "count": 9,
+      "description": "Mobile document capture, camera viewfinder, verify, success, and error states"
+    },
+    "buyer-marketplace-hold": {
+      "count": 2,
+      "description": "Buyer marketplace grids - held for a future batch (not described in batch 1 brief)"
+    }
+  },
+  "pending": [
+    "Buyer dashboard / marketplace flows",
+    "Seller dashboard",
+    "Admin dashboard"
+  ]
+}

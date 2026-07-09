@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <title>Covenant | UI/UX Designer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Kiwi+Maru:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css?v=50" />
+  </head>
+  <body>
+    <header class="top-nav">
+      <a href="#" class="logo-link" aria-label="Covey Designs Home">
+        <img
+          src="./assets/coveydesigns-logo.png"
+          alt="Covey Designs logo"
+          class="logo"
+        />
+      </a>
+
+      <button
+        type="button"
+        class="nav-toggle"
+        aria-label="Open menu"
+        aria-expanded="false"
+        aria-controls="primary-nav"
+      >
+        <span class="nav-toggle__bar"></span>
+        <span class="nav-toggle__bar"></span>
+        <span class="nav-toggle__bar"></span>
+      </button>
+    </header>
+
+    <div class="nav-backdrop" id="nav-backdrop" aria-hidden="true"></div>
+
+    <nav class="top-nav__links" id="primary-nav" aria-label="Primary navigation">
+      <a href="#home" class="nav-link active">Home</a>
+      <a
+        href="https://drive.google.com/file/d/1Qz6SO0UlporeJ1RCKKjLSuEBOJVM9Irz/view?usp=sharing"
+        class="nav-link"
+        target="_blank"
+        rel="noopener noreferrer"
+        >CV</a
+      >
+      <a href="./projects.html" class="nav-link">Projects</a>
+      <a href="mailto:covenantzechariah001@gmail.com" class="connect-btn">Let's Connect</a>
+    </nav>
+
+    <section class="hero" id="home">
+      <div class="hero__container">
+        <main class="hero__content">
+          <p class="intro-line">
+            <span class="intro-line__lead">Hi, my name is</span>
+            <span class="intro-line__name">Covenant,</span>
+            <span class="avatar-chip-wrap">
+              <span class="avatar-chip-flip" id="avatar-flip">
+                <img
+                  src="./assets/avatar-covenant.jpeg"
+                  alt="Covenant portrait"
+                  class="avatar-chip avatar-chip--front"
+                />
+                <img
+                  src="./assets/avatar-covenant-alt.jpeg"
+                  alt=""
+                  class="avatar-chip avatar-chip--back"
+                  aria-hidden="true"
+                />
+              </span>
+            </span>
+          </p>
+
+          <div class="headline-wrap">
+            <div class="chalk-speaker" aria-hidden="true">
+              <img src="./assets/speaker.png" alt="" />
+            </div>
+
+            <div class="headline-block">
+              <div class="headline-line">
+                <p class="subline">and I'm a</p>
+                <h1>
+                  <span class="typewriter-text" id="typewriter-role" aria-live="polite">Ui/Ux Designer</span><span class="typewriter-cursor" aria-hidden="true">|</span>
+                </h1>
+              </div>
+              <div class="arrow-line" aria-hidden="true">
+                <span></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="body-copy-wrap">
+            <div class="body-copy-header">
+              <div class="body-copy-line" aria-hidden="true"></div>
+              <a href="mailto:covenantzechariah001@gmail.com" class="connect-btn hero__connect-btn">Let's Connect</a>
+            </div>
+            <p class="body-copy">
+              I design intuitive, clean, and scalable Mobile Apps and Websites
+              experiences for FinTech, SaaS, EdTech, Marketplace and Web3. My
+              focus is on clarity, usability, and designing experiences that
+              actually solve problems and drive results.
+            </p>
+          </div>
+        </main>
+
+        <div class="hero__bottom">
+          <aside class="social-rail" aria-label="Social links">
+            <a
+              href="https://www.linkedin.com/in/covenant-zechariah-coveydesigns?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="LinkedIn"
+            >
+              <svg viewBox="0 0 24 24" role="presentation">
+                <path
+                  d="M4.98 3.5a2.48 2.48 0 1 0 0 4.96 2.48 2.48 0 0 0 0-4.96ZM3 9h4v12H3zM10 9h3.8v1.7h.1c.53-1 1.84-2.07 3.8-2.07 4.07 0 4.82 2.68 4.82 6.16V21h-4v-5.46c0-1.3-.03-2.97-1.81-2.97-1.82 0-2.1 1.42-2.1 2.88V21h-4z"
+                />
+              </svg>
+            </a>
+            <a
+              href="https://x.com/covey_designs_?s=21"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="X"
+            >
+              <svg viewBox="0 0 24 24" role="presentation">
+                <path d="M18.9 2H22l-6.77 7.74L23.2 22h-6.25l-4.9-7.05L5.8 22H2.7l7.24-8.28L1.2 2h6.4l4.42 6.37L18.9 2Zm-1.1 18h1.73L6.67 3.9H4.8L17.8 20Z" />
+              </svg>
+            </a>
+            <a
+              href="https://contra.com/covenant_f2dl8ook?referralExperimentNid=DEFAULT_REFERRAL_PROGRAM&referrerUsername=covenant_f2dl8ook"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Contra"
+            >
+              <svg viewBox="0 0 24 24" role="presentation">
+                <path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10c4.5 0 8.3-3 9.5-7.1h-4c-1 1.8-3 3.1-5.5 3.1A6 6 0 0 1 6 12a6 6 0 0 1 6-6c2.5 0 4.5 1.3 5.5 3.1h4C20.3 5 16.5 2 12 2Z" />
+              </svg>
+            </a>
+          </aside>
+
+          <div class="location-tag" aria-label="Location">
+            <svg viewBox="0 0 24 24" role="presentation">
+              <path
+                d="M12 2a7 7 0 0 0-7 7c0 5.1 6.3 12.2 6.6 12.5.2.2.5.2.8 0 .3-.3 6.6-7.4 6.6-12.5a7 7 0 0 0-7-7Zm0 9.5A2.5 2.5 0 1 1 12 6a2.5 2.5 0 0 1 0 5.5Z"
+              />
+            </svg>
+            <span>Abuja</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="skills-section" id="skills">
+      <div class="skills-shell">
+        <h2>I have skills in:</h2>
+
+        <div class="skills-row">
+          <p class="skill-pill">Ux Research</p>
+          <p class="skill-pill">Information Architecture</p>
+          <p class="skill-pill">Wireframes</p>
+          <p class="skill-pill">Ui Design</p>
+          <p class="skill-pill">Interactive Prototype</p>
+        </div>
+
+        <div class="skills-arrow-tail" aria-hidden="true">
+          <svg viewBox="0 0 42 130" role="presentation">
+            <path d="M20 6 C18 22, 19 38, 20 52 C21 66, 20 82, 20 98" />
+            <path d="M24 12 C22 28, 23 44, 24 58 C25 74, 24 88, 24 104" />
+            <path d="M13 98 C15 104, 17 109, 19 114" />
+            <path d="M28 98 C26 104, 24 109, 22 114" />
+          </svg>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects-section" id="projects">
+      <div class="projects-shell">
+        <p class="projects-kicker">Projects</p>
+
+        <div class="projects-grid">
+          <article class="project-card">
+            <div class="project-thumb">
+              <img
+                src="./assets/allohfarms-cover.png"
+                alt="AllohFarms agriculture marketplace"
+              />
+            </div>
+            <p class="project-tag">Marketplace</p>
+            <h3>AllohFarms</h3>
+            <p class="project-copy">
+              An Agriculture Marketplace platform that connects farmers directly
+              to buyers. It also entails the three distinct dashboards for
+              Buyers, Sellers, and Admins.
+            </p>
+            <a href="case-studies/allohfarms.html" class="project-btn">View Project</a>
+          </article>
+
+          <article class="project-card">
+            <div class="project-thumb">
+              <img
+                src="./assets/airbills-cover.png"
+                alt="Airbills – The Future of Utility Payments"
+              />
+            </div>
+            <p class="project-tag">FinTech</p>
+            <h3>Airbills</h3>
+            <p class="project-copy">
+              Airbills is a crypto-powered payment app that lets users in Nigeria
+              pay for everyday bills like airtime, data, and electricity directly
+              from their digital wallets.
+            </p>
+            <a href="case-studies/airbills.html" class="project-btn">View Project</a>
+          </article>
+
+          <article class="project-card">
+            <div class="project-thumb">
+              <img
+                src="./assets/jago-cover.png"
+                alt="Jago – The Crypto Wallet"
+              />
+            </div>
+            <p class="project-tag">Web3</p>
+            <h3>Jago</h3>
+            <p class="project-copy">
+              An all-in-one wallet that makes buying, sending, swapping, and
+              managing digital assets effortless, secure, and beautifully simple.
+            </p>
+            <a href="case-studies/jago.html" class="project-btn">View Project</a>
+          </article>
+
+          <article class="project-card">
+            <div class="project-thumb">
+              <img
+                src="./assets/stellopay-cover.png"
+                alt="StelloPay decentralized payroll platform"
+              />
+            </div>
+            <p class="project-tag">Web3</p>
+            <h3>StelloPay</h3>
+            <p class="project-copy">
+              A multi-chain decentralized payroll and escrow platform that
+              enables companies to lock funds upfront and pay contributors
+              automatically.
+            </p>
+            <a href="case-studies/stellopay.html" class="project-btn">View Project</a>
+          </article>
+        </div>
+
+        <div class="projects-more-wrap">
+          <a href="./projects.html" class="projects-more-link" id="view-more-projects">View more projects</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="about-section" id="about">
+      <div class="about-shell">
+        <div class="about-left">
+          <h2>Her- Covenant</h2>
+          <div class="about-divider" aria-hidden="true"></div>
+
+          <p class="about-label">AIM</p>
+          <p class="about-lead">
+            //Hi again, my name is Covenant and I'm a Ui/Ux Designer
+            &amp;&amp; my X(perience) &lt; 3.//
+          </p>
+          <p class="about-copy">
+            I am hungry to validate my skills against the highest standards,
+            learn from bright minds, collaborate with developers and designers
+            in crafting seamless designs that drive adoption and engagement.
+            Let's Build!🚀
+          </p>
+
+          <p class="about-label">FUN FACTS</p>
+          <p class="about-copy">
+            I'm a professional over-thinker of impossible ideas (delulu😭), My
+            imagination usually has more tabs open than my browser.🥲 I'm a Dog
+            person, I like to hangout with friends, my favourite colour is Black. Asides that, I'm all about
+            learning, collaboration, NET-working, good relationships and vibes.
+          </p>
+        </div>
+
+        <div class="about-right">
+          <div class="about-avatar-wrap">
+            <img
+              src="./assets/about-avatar.jpeg"
+              alt="About Covenant portrait"
+              class="about-avatar"
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="about-see-more-wrap">
+        <a href="./about.html" class="about-see-more">See more</a>
+      </div>
+    </section>
+
+    <footer class="home-footer" id="contact">
+      <div class="home-footer__shell">
+        <div class="footer-cta-box">
+          <svg class="footer-chalk-line top" viewBox="0 0 900 70" aria-hidden="true">
+            <path
+              d="M2 38 C128 14, 248 54, 368 32 C498 8, 628 58, 768 28 C822 16, 862 22, 898 36"
+            />
+          </svg>
+
+          <div class="footer-cta-content">
+            <div class="footer-cta-copy">
+              <p>·&nbsp; Looking for a Designer for your Project?</p>
+              <p>·&nbsp; Want to collaborate?</p>
+              <p>·&nbsp; Recruiting a Designer?</p>
+            </div>
+
+            <div class="footer-cta-action">
+              <a href="mailto:covenantzechariah001@gmail.com" class="footer-connect-btn">Let's Connect</a>
+            </div>
+          </div>
+
+          <svg class="footer-chalk-line bottom" viewBox="0 0 900 70" aria-hidden="true">
+            <path
+              d="M2 39 C122 13, 252 55, 372 33 C508 9, 638 61, 778 30 C828 18, 864 20, 898 35"
+            />
+          </svg>
+        </div>
+
+        <div class="footer-brand-row">
+          <p class="footer-brand-left">Let's</p>
+          <div class="footer-brand-mark">
+            <img src="./assets/coveydesigns-logo.png" alt="Covey Designs mark" />
+          </div>
+          <p class="footer-brand-right">Buidl</p>
+        </div>
+
+        <div class="footer-socials" aria-label="Footer social links">
+          <a
+            href="https://www.linkedin.com/in/covenant-zechariah-coveydesigns?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="LinkedIn"
+          >
+            <svg viewBox="0 0 24 24" role="presentation">
+              <path
+                d="M4.98 3.5a2.48 2.48 0 1 0 0 4.96 2.48 2.48 0 0 0 0-4.96ZM3 9h4v12H3zM10 9h3.8v1.7h.1c.53-1 1.84-2.07 3.8-2.07 4.07 0 4.82 2.68 4.82 6.16V21h-4v-5.46c0-1.3-.03-2.97-1.81-2.97-1.82 0-2.1 1.42-2.1 2.88V21h-4z"
+              />
+            </svg>
+          </a>
+          <a
+            href="https://x.com/covey_designs_?s=21"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="X"
+          >
+            <svg viewBox="0 0 24 24" role="presentation">
+              <path d="M18.9 2H22l-6.77 7.74L23.2 22h-6.25l-4.9-7.05L5.8 22H2.7l7.24-8.28L1.2 2h6.4l4.42 6.37L18.9 2Zm-1.1 18h1.73L6.67 3.9H4.8L17.8 20Z" />
+            </svg>
+          </a>
+          <a
+            href="https://contra.com/covenant_f2dl8ook?referralExperimentNid=DEFAULT_REFERRAL_PROGRAM&referrerUsername=covenant_f2dl8ook"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Contra"
+          >
+            <svg viewBox="0 0 24 24" role="presentation">
+              <path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10c4.5 0 8.3-3 9.5-7.1h-4c-1 1.8-3 3.1-5.5 3.1A6 6 0 0 1 6 12a6 6 0 0 1 6-6c2.5 0 4.5 1.3 5.5 3.1h4C20.3 5 16.5 2 12 2Z" />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      (function () {
+        var flip = document.getElementById("avatar-flip");
+        if (!flip || window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+
+        setInterval(function () {
+          flip.classList.toggle("is-flipped");
+        }, 8000);
+      })();
+
+      (function () {
+        var roleEl = document.getElementById("typewriter-role");
+        if (!roleEl) return;
+
+        var roles = ["Ui/Ux Designer", "Code-Bender", "Vibe Coder", "Creative"];
+        var roleIndex = 0;
+        var charIndex = roles[0].length;
+        var isDeleting = false;
+        var isPaused = false;
+        var typeSpeed = 78;
+        var deleteSpeed = 42;
+        var pauseMs = 3000;
+
+        function tick() {
+          if (isPaused) return;
+
+          var current = roles[roleIndex];
+
+          if (!isDeleting) {
+            if (charIndex < current.length) {
+              charIndex += 1;
+              roleEl.textContent = current.slice(0, charIndex);
+              setTimeout(tick, typeSpeed);
+              return;
+            }
+
+            isPaused = true;
+            setTimeout(function () {
+              isPaused = false;
+              isDeleting = true;
+              tick();
+            }, pauseMs);
+            return;
+          }
+
+          if (charIndex > 0) {
+            charIndex -= 1;
+            roleEl.textContent = current.slice(0, charIndex);
+            setTimeout(tick, deleteSpeed);
+            return;
+          }
+
+          isDeleting = false;
+          roleIndex = (roleIndex + 1) % roles.length;
+          setTimeout(tick, typeSpeed);
+        }
+
+        roleEl.textContent = roles[0];
+        charIndex = roles[0].length;
+        isPaused = true;
+        setTimeout(function () {
+          isPaused = false;
+          isDeleting = true;
+          tick();
+        }, pauseMs);
+      })();
+
+      const navLinks = document.querySelectorAll(".nav-link");
+      navLinks.forEach((link) => {
+        link.addEventListener("click", (event) => {
+          const href = link.getAttribute("href");
+          if (href && href.startsWith("#") && href.length > 1) {
+            const target = document.querySelector(href);
+            if (target) {
+              event.preventDefault();
+              target.scrollIntoView({ behavior: "smooth", block: "start" });
+            }
+          }
+
+          navLinks.forEach((item) => item.classList.remove("active"));
+          link.classList.add("active");
+        });
+      });
+
+      const skillsSection = document.querySelector(".skills-section");
+      if (skillsSection) {
+        let scrollDropPlayed = false;
+
+        function playSkillsDrop() {
+          skillsSection.classList.remove("is-active");
+          skillsSection.querySelectorAll(".skill-pill").forEach((pill) => {
+            pill.style.animation = "none";
+          });
+          void skillsSection.offsetWidth;
+          skillsSection.querySelectorAll(".skill-pill").forEach((pill) => {
+            pill.style.animation = "";
+          });
+          skillsSection.classList.add("is-active");
+        }
+
+        function isNearSkillsSection() {
+          const rect = skillsSection.getBoundingClientRect();
+          const viewportHeight = window.innerHeight;
+          return rect.top < viewportHeight * 0.82 && rect.bottom > viewportHeight * 0.12;
+        }
+
+        skillsSection.addEventListener("mouseenter", playSkillsDrop);
+
+        const skillsObserver = new IntersectionObserver(
+          (entries) => {
+            entries.forEach((entry) => {
+              if (!entry.isIntersecting || scrollDropPlayed) {
+                return;
+              }
+
+              const scrollingDown =
+                window.scrollY > 0 && entry.boundingClientRect.top > 0;
+
+              if (scrollingDown || isNearSkillsSection()) {
+                playSkillsDrop();
+                scrollDropPlayed = true;
+              }
+            });
+          },
+          {
+            rootMargin: "120px 0px -8% 0px",
+            threshold: 0.12,
+          }
+        );
+
+        skillsObserver.observe(skillsSection);
+
+        if (isNearSkillsSection()) {
+          playSkillsDrop();
+          scrollDropPlayed = true;
+        }
+      }
+
+      const projectsSection = document.querySelector(".projects-section");
+      if (projectsSection) {
+        const projectsObserver = new IntersectionObserver(
+          (entries) => {
+            entries.forEach((entry) => {
+              if (entry.isIntersecting) {
+                entry.target.classList.add("is-visible");
+                projectsObserver.unobserve(entry.target);
+              }
+            });
+          },
+          { threshold: 0.12, rootMargin: "0px 0px -6% 0px" }
+        );
+        projectsObserver.observe(projectsSection);
+      }
+
+      /* Ensure View more projects navigates on mobile */
+      var viewMore = document.getElementById("view-more-projects");
+      if (viewMore) {
+        viewMore.addEventListener("click", function (e) {
+          e.preventDefault();
+          e.stopPropagation();
+          window.location.assign(viewMore.getAttribute("href") || "./projects.html");
+        });
+      }
+
+      (function () {
+        var toggle = document.querySelector(".nav-toggle");
+        var nav = document.getElementById("primary-nav");
+        var backdrop = document.getElementById("nav-backdrop");
+        if (!toggle || !nav) return;
+
+        function closeMenu() {
+          toggle.setAttribute("aria-expanded", "false");
+          toggle.setAttribute("aria-label", "Open menu");
+          nav.classList.remove("is-open");
+          if (backdrop) {
+            backdrop.classList.remove("is-visible");
+            backdrop.setAttribute("aria-hidden", "true");
+          }
+          document.body.style.overflow = "";
+        }
+
+        function openMenu() {
+          toggle.setAttribute("aria-expanded", "true");
+          toggle.setAttribute("aria-label", "Close menu");
+          nav.classList.add("is-open");
+          if (backdrop) {
+            backdrop.classList.add("is-visible");
+            backdrop.setAttribute("aria-hidden", "false");
+          }
+          document.body.style.overflow = "hidden";
+        }
+
+        toggle.addEventListener("click", function () {
+          if (nav.classList.contains("is-open")) closeMenu();
+          else openMenu();
+        });
+
+        if (backdrop) backdrop.addEventListener("click", closeMenu);
+
+        nav.querySelectorAll("a").forEach(function (link) {
+          link.addEventListener("click", closeMenu);
+        });
+      })();
+    </script>
+  </body>
+</html>

@@ -1,0 +1,28 @@
+{
+  "project": "AllohFarms",
+  "batch": 2,
+  "status": "gathered - buyer login & signup",
+  "total_screens": 15,
+  "description": "Buyer account creation, interest personalization, email verification, and login",
+  "categories": {
+    "buyer-login": {
+      "count": 1,
+      "screens": [
+        "buyer-login-empty.png - Login with Buyer toggle active"
+      ]
+    },
+    "buyer-registration": {
+      "count": 14,
+      "flow": [
+        "Step 1: Choose account type (Buyer selected)",
+        "Step 2: Profile form - empty & filled (name, email, phone, password)",
+        "Step 3: Personalize experience - category interest tags (empty, Organic, Organic + Vegetables)",
+        "Step 4: Email verification - empty, code entered, verifying, wrong code error, success"
+      ]
+    }
+  },
+  "notes": [
+    "Buyer signup uses interest personalization instead of document upload (stepper label still says Upload Document on some frames)",
+    "step4-email-verified-success.png copy references Trusted Seller - may need a buyer-specific success variant later"
+  ]
+}

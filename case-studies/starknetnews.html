@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <title>StarknetNews Case Study | Covenant</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Inter:wght@400;500;600;700&family=Lexend+Deca:wght@400;500;600;700&family=DM+Serif+Display:ital@0;1&family=Kiwi+Maru:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../styles.css?v=50" />
+    <link rel="stylesheet" href="case-study.css?v=17" />
+    <link rel="stylesheet" href="jago-case-study.css?v=17" />
+    <link rel="stylesheet" href="starknetnews-case-study.css?v=17" />
+  </head>
+  <body class="case-study case-study--starknet">
+    <header class="top-nav">
+      <a href="../index.html" class="logo-link" aria-label="Covey Designs Home">
+        <img src="../assets/coveydesigns-logo.png" alt="Covey Designs logo" class="logo" />
+      </a>
+      <button type="button" class="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="primary-nav">
+        <span class="nav-toggle__bar"></span><span class="nav-toggle__bar"></span><span class="nav-toggle__bar"></span>
+      </button>
+    </header>
+    <div class="nav-backdrop" id="nav-backdrop" aria-hidden="true"></div>
+    <nav class="top-nav__links" id="primary-nav" aria-label="Primary navigation">
+      <a href="../index.html#home" class="nav-link">Home</a>
+      <a href="https://drive.google.com/file/d/1Qz6SO0UlporeJ1RCKKjLSuEBOJVM9Irz/view?usp=sharing" class="nav-link" target="_blank" rel="noopener noreferrer">CV</a>
+      <a href="../projects.html" class="nav-link active">Projects</a>
+      <a href="mailto:covenantzechariah001@gmail.com" class="connect-btn">Let's Connect</a>
+    </nav>
+
+    <section class="case-hero" id="overview">
+      <span class="case-hero__tag">Web3 · Media</span>
+      <h1>StarknetNews</h1>
+      <p class="case-hero__lead">
+        A media hub for the Starknet ecosystem - news, live prices, hackathons, and
+        community updates in one place. Designed for desktop and mobile so builders
+        and newcomers can stay informed without hunting across Discord and Twitter.
+      </p>
+      <div class="case-hero__cta">
+        <a href="mailto:covenantzechariah001@gmail.com" class="connect-btn case-hero__connect">Let's Connect</a>
+      </div>
+      <dl class="case-meta">
+        <div><dt>Role</dt><dd>UI/UX Designer and Researcher</dd></div>
+        <div><dt>Timeline</dt><dd>2 weeks</dd></div>
+        <div><dt>Tools</dt><dd>Figma, ChatGPT</dd></div>
+        <div><dt>Platform</dt><dd>Web (Desktop &amp; Mobile)</dd></div>
+      </dl>
+    </section>
+
+    <section class="sn-showcase" aria-label="StarknetNews hero preview">
+      <div class="sn-showcase__inner">
+        <div class="sn-showcase__player video-player--hero" id="sn-showcase-wrap">
+          <video
+            id="sn-showcase-video"
+            class="sn-showcase__video"
+            src="../assets/case-studies/starknetnews/starknetnews-showcase.mov"
+            poster="../assets/starknetnews-cover.png"
+            playsinline
+            preload="metadata"
+            tabindex="-1"
+            disablepictureinpicture
+          ></video>
+          <button type="button" class="video-overlay-btn sn-showcase__play-btn" id="sn-showcase-play" aria-label="Play video">▶</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="sn-intro" id="introduction">
+      <div class="sn-intro__inner">
+        <p class="sn-intro__label">Introduction</p>
+        <p class="sn-intro__lead">
+          StarknetNews turns scattered ecosystem updates into a single, trusted media destination.
+        </p>
+        <p class="sn-intro__sub">
+          From headline carousels and categorized news feeds to live price dashboards,
+          hackathon listings, and a newsletter signup - every page is built to help readers
+          discover, learn, and stay connected with Starknet across desktop and mobile.
+        </p>
+      </div>
+    </section>
+
+    <section class="sn-ps" id="context">
+      <div class="sn-ps__inner">
+        <header class="sn-ps__head">
+          <p class="sn-ps__kicker">Context</p>
+          <h2>From fragmented updates to one trusted hub</h2>
+        </header>
+        <div class="sn-ps__grid">
+          <article class="sn-ps__card sn-ps__card--problem">
+            <span class="sn-ps__num" aria-hidden="true">01</span>
+            <p class="sn-ps__tag">Problem</p>
+            <h3>News, prices, and events live everywhere</h3>
+            <p>
+              Starknet updates live everywhere - Twitter threads, Discord pins, blog posts,
+              and price trackers with no shared design language. Newcomers struggle to find
+              credible news; power users waste time jumping between tabs to track prices,
+              events, and hackathons.
+            </p>
+          </article>
+          <article class="sn-ps__card sn-ps__card--solution">
+            <span class="sn-ps__num" aria-hidden="true">02</span>
+            <p class="sn-ps__tag">Solution</p>
+            <h3>One responsive media destination</h3>
+            <p>
+              StarknetNews unifies ecosystem media into one responsive site - curated news
+              feeds, live price tables, hackathon boards, and a newsletter CTA - with a
+              cosmic purple visual language that feels native to Web3 without sacrificing readability.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="sn-process" id="process">
+      <div class="sn-process__inner">
+        <header class="sn-process__head">
+          <p class="sn-process__kicker">Design Process</p>
+          <h2>From research to responsive screens</h2>
+          <p>A focused four-step flow - ecosystem research, structure in wireframes, polished hi-fi screens, then layouts tuned for desktop and mobile.</p>
+        </header>
+        <ol class="sn-process__steps">
+          <li class="sn-process__step">
+            <span class="sn-process__index" aria-hidden="true">01</span>
+            <h3>Research</h3>
+            <p>Competitive audits, reader interviews, and content mapping across news, prices, and events.</p>
+          </li>
+          <li class="sn-process__step">
+            <span class="sn-process__index" aria-hidden="true">02</span>
+            <h3>Wireframing</h3>
+            <p>Low-fi layouts for home, news, prices, hackathons, and newsletter flows before visual polish.</p>
+          </li>
+          <li class="sn-process__step">
+            <span class="sn-process__index" aria-hidden="true">03</span>
+            <h3>Hi-fi design</h3>
+            <p>Full-color screens with Starknet's purple system, typography, and editorial hierarchy.</p>
+          </li>
+          <li class="sn-process__step">
+            <span class="sn-process__index" aria-hidden="true">04</span>
+            <h3>Responsive layout</h3>
+            <p>Desktop grids and mobile scroll patterns so both personas can scan without friction.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="sn-personas" id="personas">
+      <div class="sn-personas__inner">
+        <header class="sn-personas__head">
+          <p class="sn-personas__kicker">User Personas</p>
+          <h2>Two readers shaped the architecture</h2>
+          <p>A daily ecosystem tracker and a curious newcomer - each with different scanning habits and trust signals.</p>
+        </header>
+
+        <article class="sn-persona-block">
+          <div class="sn-persona-block__profile sn-persona-block__profile--1">
+            <img class="sn-persona-block__avatar" src="../assets/case-studies/starknetnews/personas/persona-kofi-3d.png" alt="Kofi Mensah" width="120" height="120" loading="lazy" decoding="async" />
+            <h3>Kofi Mensah</h3>
+            <p class="sn-persona-block__role">Ecosystem Builder</p>
+            <ul class="sn-persona-block__meta">
+              <li>Accra, Ghana</li>
+              <li>31 years old</li>
+              <li>Checks news daily</li>
+            </ul>
+          </div>
+          <div class="sn-persona-block__details">
+            <div class="sn-persona-block__card">
+              <h4>Goals</h4>
+              <ul>
+                <li>Track STRK price and DeFi metrics daily</li>
+                <li>Find hackathons before registration closes</li>
+                <li>Share credible news with his dev community</li>
+              </ul>
+            </div>
+            <div class="sn-persona-block__card sn-persona-block__card--pain">
+              <h4>Pain Points</h4>
+              <ul>
+                <li>News buried in Discord and X threads</li>
+                <li>Price data scattered across dashboards</li>
+                <li>No single source for ecosystem events</li>
+              </ul>
+            </div>
+          </div>
+        </article>
+
+        <article class="sn-persona-block">
+          <div class="sn-persona-block__profile sn-persona-block__profile--2">
+            <img class="sn-persona-block__avatar" src="../assets/case-studies/starknetnews/personas/persona-amira-3d.png" alt="Amira Hassan" width="120" height="120" loading="lazy" decoding="async" />
+            <h3>Amira Hassan</h3>
+            <p class="sn-persona-block__role">Web3 Newcomer</p>
+            <ul class="sn-persona-block__meta">
+              <li>Berlin, Germany</li>
+              <li>24 years old</li>
+              <li>Reads on mobile first</li>
+            </ul>
+          </div>
+          <div class="sn-persona-block__details">
+            <div class="sn-persona-block__card">
+              <h4>Goals</h4>
+              <ul>
+                <li>Learn what Starknet is without jargon overload</li>
+                <li>Discover beginner-friendly articles and videos</li>
+                <li>Join the community newsletter safely</li>
+              </ul>
+            </div>
+            <div class="sn-persona-block__card sn-persona-block__card--pain">
+              <h4>Pain Points</h4>
+              <ul>
+                <li>Overwhelmed by technical Twitter discourse</li>
+                <li>Can't tell which sources are trustworthy</li>
+                <li>Mobile sites feel cluttered and hard to scan</li>
+              </ul>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="sn-empathy" id="empathy-map">
+      <div class="sn-empathy__inner">
+        <header class="sn-empathy__head">
+          <h2>Empathy Map</h2>
+          <p>Mapping Kofi's mindset - the daily reader who needs fast, trustworthy ecosystem updates on the go.</p>
+        </header>
+        <div class="sn-empathy__map" aria-label="Empathy map for Kofi Mensah">
+          <div class="sn-empathy__quadrant sn-empathy__quadrant--says">
+            <h3>Says</h3>
+            <ul>
+              <li>"I just want one place for Starknet news and prices."</li>
+              <li>"If I miss a hackathon deadline, that's on me - but the info should be obvious."</li>
+              <li>"I share links in our group chat - they need to look legit."</li>
+            </ul>
+          </div>
+          <div class="sn-empathy__quadrant sn-empathy__quadrant--thinks">
+            <h3>Thinks</h3>
+            <ul>
+              <li>Time is money - scanning headlines should take seconds</li>
+              <li>Price movements matter more than opinion pieces</li>
+              <li>Design quality signals whether a source is serious</li>
+            </ul>
+          </div>
+          <div class="sn-empathy__quadrant sn-empathy__quadrant--does">
+            <h3>Does</h3>
+            <ul>
+              <li>Checks crypto Twitter and Discord every morning</li>
+              <li>Bookmarks price dashboards and hackathon pages</li>
+              <li>Reads on mobile during commutes, desktop at work</li>
+            </ul>
+          </div>
+          <div class="sn-empathy__quadrant sn-empathy__quadrant--feels">
+            <h3>Feels</h3>
+            <ul>
+              <li>Frustrated when ecosystem news is fragmented</li>
+              <li>Confident when data is visual and up to date</li>
+              <li>Motivated to build when the community feels active</li>
+            </ul>
+          </div>
+          <div class="sn-empathy__center" aria-hidden="true">KM</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sn-wireframes" id="wireframes">
+      <div class="sn-wireframes__inner">
+        <header class="sn-wireframes__head">
+          <h2>Wireframes</h2>
+          <p>Low-fidelity layouts mapped the page structure before visual design - hero blocks, content grids, and navigation patterns for every major route.</p>
+        </header>
+
+        <div class="sn-wireframes__grid">
+            <figure>
+              <img class="sn-img" src="../assets/case-studies/starknetnews/wireframe-desktop-home.png" alt="Desktop wireframe - home page layout" width="522" height="1024" loading="lazy" decoding="async" />
+              <figcaption>Home</figcaption>
+            </figure>
+            <figure>
+              <img class="sn-img" src="../assets/case-studies/starknetnews/wireframe-desktop-news.png" alt="Desktop wireframe - news feed layout" width="764" height="1024" loading="lazy" decoding="async" />
+              <figcaption>News feed</figcaption>
+            </figure>
+            <figure>
+              <img class="sn-img" src="../assets/case-studies/starknetnews/wireframe-desktop-prices.png" alt="Desktop wireframe - prices page layout" width="557" height="1024" loading="lazy" decoding="async" />
+              <figcaption>Prices</figcaption>
+            </figure>
+            <figure>
+              <img class="sn-img" src="../assets/case-studies/starknetnews/wireframe-desktop-hackathons.png" alt="Desktop wireframe - hackathons page layout" width="429" height="1024" loading="lazy" decoding="async" />
+              <figcaption>Hackathons</figcaption>
+            </figure>
+            <figure>
+              <img class="sn-img" src="../assets/case-studies/starknetnews/wireframe-desktop-newsletter.png" alt="Desktop wireframe - newsletter page layout" width="693" height="1024" loading="lazy" decoding="async" />
+              <figcaption>Newsletter</figcaption>
+            </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="sn-screens" id="screens">
+      <div class="sn-screens__inner">
+        <header class="sn-screens__head">
+          <h2>Final Screens</h2>
+          <p>Hi-fi desktop designs - news feeds, price dashboards, hackathons, and newsletter signup.</p>
+        </header>
+
+        <div class="sn-screens__stack">
+          <figure class="sn-screens__figure sn-screens__figure--landing">
+            <img
+              class="sn-screens__img sn-screens__img--landing"
+              src="../assets/starknetnews-cover.png"
+              srcset="../assets/starknetnews-cover.png 2644w"
+              sizes="(min-width: 1600px) 1320px, calc(100vw - 2 * clamp(40px, 8vw, 160px))"
+              alt="StarknetNews desktop landing page - hero and latest news"
+              width="2644"
+              height="1488"
+              loading="eager"
+              decoding="async"
+            />
+            <figcaption>Home - landing hero, insights carousel, and latest news</figcaption>
+          </figure>
+          <figure class="sn-screens__figure" data-native-width="787">
+            <img class="sn-screens__img" src="../assets/case-studies/starknetnews/screen-desktop-hackathons.png" alt="StarknetNews desktop hackathons page" width="787" height="1024" loading="lazy" decoding="async" />
+            <figcaption>Hackathons - filtered cards with ongoing, upcoming, and closed tabs</figcaption>
+          </figure>
+          <figure class="sn-screens__figure" data-native-width="1024">
+            <img class="sn-screens__img" src="../assets/case-studies/starknetnews/screen-desktop-newsletter.png" alt="StarknetNews desktop newsletter page" width="1024" height="786" loading="lazy" decoding="async" />
+            <figcaption>Newsletter - community signup CTA</figcaption>
+          </figure>
+          <figure class="sn-screens__figure" data-native-width="1024">
+            <img class="sn-screens__img" src="../assets/case-studies/starknetnews/screen-desktop-prices-metrics.png" alt="StarknetNews desktop prices - key metrics" width="1024" height="1006" loading="lazy" decoding="async" />
+            <figcaption>Prices - Starknet key metrics dashboard</figcaption>
+          </figure>
+          <figure class="sn-screens__figure" data-native-width="765">
+            <img class="sn-screens__img" src="../assets/case-studies/starknetnews/screen-desktop-prices-tokens.png" alt="StarknetNews desktop prices - DeFi tokens" width="765" height="1024" loading="lazy" decoding="async" />
+            <figcaption>Prices - DeFi tokens table</figcaption>
+          </figure>
+          <figure class="sn-screens__figure" data-native-width="765">
+            <img class="sn-screens__img" src="../assets/case-studies/starknetnews/screen-desktop-prices-nft.png" alt="StarknetNews desktop prices - NFT collections" width="765" height="1024" loading="lazy" decoding="async" />
+            <figcaption>Prices - NFT collections floor data</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="case-section" id="reflection">
+      <div class="case-section__inner">
+        <p class="case-kicker">Reflection</p>
+        <div class="chalkboard-wrap">
+          <div class="chalkboard">
+            <div class="chalkboard__inner">
+              <h2>What I learned</h2>
+              <ul class="chalkboard-list">
+                <li>
+                  <span class="chalkboard-list__dot chalkboard-list__dot--orange" aria-hidden="true"></span>
+                  <span><strong>One hub beats five tabs.</strong> Readers wanted news, prices, and events in one place - not scattered across Discord, X, and dashboards.</span>
+                </li>
+                <li>
+                  <span class="chalkboard-list__dot chalkboard-list__dot--green" aria-hidden="true"></span>
+                  <span><strong>Scan patterns differ by persona.</strong> Kofi needed dense data tables; Amira needed calm editorial cards - both layouts had to coexist.</span>
+                </li>
+                <li>
+                  <span class="chalkboard-list__dot chalkboard-list__dot--pink" aria-hidden="true"></span>
+                  <span><strong>Purple is the brand anchor.</strong> A consistent Starknet purple system made the blog feel native to the ecosystem, not like a generic crypto news site.</span>
+                </li>
+                <li>
+                  <span class="chalkboard-list__dot chalkboard-list__dot--blue" aria-hidden="true"></span>
+                  <span><strong>Responsive is editorial, not shrink-to-fit.</strong> Mobile needed its own feed rhythm - not just stacked desktop columns.</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="jg-more-work" id="more-projects">
+      <div class="jg-more-work__headline cs-thank-you__headline">
+        <span class="cs-thank-you__line jg-more-work__line">Thank you for</span>
+        <span class="cs-thank-you__line cs-thank-you__line--bottom jg-more-work__line--bottom">your time.</span>
+      </div>
+      <div class="jg-more-work__carousel">
+        <div class="jg-more-work__carousel-header cs-carousel-bar">
+          <h2 class="cs-carousel-bar__title">Explore more projects</h2>
+          <div class="carousel-nav">
+            <button type="button" id="carousel-prev" aria-label="Previous project">←</button>
+            <button type="button" id="carousel-next" aria-label="Next project">→</button>
+          </div>
+        </div>
+        <div class="projects-carousel-wrap">
+          <div class="projects-carousel" id="projects-carousel">
+            <article class="project-slide">
+              <div class="project-slide__thumb"><img src="../assets/allohfarms-cover.png" alt="AllohFarms" loading="lazy" /></div>
+              <div class="project-slide__body">
+                <p class="project-slide__tag project-slide__tag--marketplace">Marketplace</p>
+                <h3>AllohFarms</h3>
+                <p>Agriculture marketplace connecting farmers to buyers.</p>
+                <a href="allohfarms.html" class="project-slide__btn">View Project</a>
+              </div>
+            </article>
+            <article class="project-slide">
+              <div class="project-slide__thumb"><img src="../assets/airbills-cover.png" alt="Airbills" loading="lazy" /></div>
+              <div class="project-slide__body">
+                <p class="project-slide__tag project-slide__tag--fintech">FinTech</p>
+                <h3>Airbills</h3>
+                <p>Crypto-powered utility payments for Nigeria.</p>
+                <a href="airbills.html" class="project-slide__btn">View Project</a>
+              </div>
+            </article>
+            <article class="project-slide">
+              <div class="project-slide__thumb"><img src="../assets/jago-cover.png" alt="Jago" loading="lazy" /></div>
+              <div class="project-slide__body">
+                <p class="project-slide__tag project-slide__tag--web3">Web3</p>
+                <h3>Jago</h3>
+                <p>All-in-one crypto wallet.</p>
+                <a href="jago.html" class="project-slide__btn">View Project</a>
+              </div>
+            </article>
+            <article class="project-slide">
+              <div class="project-slide__thumb"><img src="../assets/stellopay-cover.png" alt="StelloPay" loading="lazy" /></div>
+              <div class="project-slide__body">
+                <p class="project-slide__tag project-slide__tag--web3-blue">Web3</p>
+                <h3>StelloPay</h3>
+                <p>Decentralized payroll platform.</p>
+                <a href="stellopay.html" class="project-slide__btn">View Project</a>
+              </div>
+            </article>
+            <article class="project-slide">
+              <div class="project-slide__thumb"><img src="../assets/will-you-be-my-val-cover.png" alt="Will you be my val?" loading="lazy" /></div>
+              <div class="project-slide__body">
+                <p class="project-slide__tag project-slide__tag--experience">Experience</p>
+                <h3>Will you be my val?</h3>
+                <p>Romantic Valentine's proposal experience.</p>
+                <a href="will-you-be-my-val.html" class="project-slide__btn">View Project</a>
+              </div>
+            </article>
+            <article class="project-slide project-slide--current">
+              <div class="project-slide__thumb"><img src="../assets/starknetnews-cover.png" alt="StarknetNews" loading="lazy" /></div>
+              <div class="project-slide__body">
+                <p class="project-slide__tag project-slide__tag--web3-media">Web3 · Media</p>
+                <h3>StarknetNews</h3>
+                <p>Starknet news, prices, events &amp; hackathons.</p>
+                <span class="project-slide__btn project-slide__btn--disabled">You're here</span>
+              </div>
+            </article>
+            <article class="project-slide">
+              <div class="project-slide__thumb"><img src="../assets/transverpay-cover.png" alt="TransversePay" loading="lazy" /></div>
+              <div class="project-slide__body">
+                <p class="project-slide__tag project-slide__tag--fintech">FinTech</p>
+                <h3>TransversePay</h3>
+                <p>Global payments - safer, easier transfers.</p>
+                <a href="transversepay.html" class="project-slide__btn">View Project</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <a href="#overview" class="back-to-top" id="back-to-top" style="display:block;text-align:center;padding:24px;color:inherit;">← Back to top</a>
+
+    <footer class="home-footer" id="contact">
+      <div class="home-footer__shell">
+        <div class="footer-cta-box">
+          <svg class="footer-chalk-line top" viewBox="0 0 900 70" aria-hidden="true">
+            <path d="M2 38 C128 14, 248 54, 368 32 C498 8, 628 58, 768 28 C822 16, 862 22, 898 36" />
+          </svg>
+          <div class="footer-cta-content">
+            <div class="footer-cta-copy">
+              <p>·&nbsp; Looking for a Designer for your Project?</p>
+              <p>·&nbsp; Want to collaborate?</p>
+              <p>·&nbsp; Recruiting a Designer?</p>
+            </div>
+            <div class="footer-cta-action">
+              <a href="mailto:covenantzechariah001@gmail.com" class="footer-connect-btn">Let's Connect</a>
+            </div>
+          </div>
+          <svg class="footer-chalk-line bottom" viewBox="0 0 900 70" aria-hidden="true">
+            <path d="M2 39 C122 13, 252 55, 372 33 C508 9, 638 61, 778 30 C828 18, 864 20, 898 35" />
+          </svg>
+        </div>
+        <div class="footer-brand-row">
+          <p class="footer-brand-left">Let's</p>
+          <div class="footer-brand-mark">
+            <img src="../assets/coveydesigns-logo.png" alt="Covey Designs mark" />
+          </div>
+          <p class="footer-brand-right">Buidl</p>
+        </div>
+        <div class="footer-socials" aria-label="Footer social links">
+          <a href="https://www.linkedin.com/in/covenant-zechariah-coveydesigns?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24" role="presentation"><path d="M4.98 3.5a2.48 2.48 0 1 0 0 4.96 2.48 2.48 0 0 0 0-4.96ZM3 9h4v12H3zM10 9h3.8v1.7h.1c.53-1 1.84-2.07 3.8-2.07 4.07 0 4.82 2.68 4.82 6.16V21h-4v-5.46c0-1.3-.03-2.97-1.81-2.97-1.82 0-2.1 1.42-2.1 2.88V21h-4z" /></svg>
+          </a>
+          <a href="https://x.com/covey_designs_?s=21" target="_blank" rel="noopener noreferrer" aria-label="X">
+            <svg viewBox="0 0 24 24" role="presentation"><path d="M18.9 2H22l-6.77 7.74L23.2 22h-6.25l-4.9-7.05L5.8 22H2.7l7.24-8.28L1.2 2h6.4l4.42 6.37L18.9 2Zm-1.1 18h1.73L6.67 3.9H4.8L17.8 20Z" /></svg>
+          </a>
+          <a href="https://contra.com/covenant_f2dl8ook?referralExperimentNid=DEFAULT_REFERRAL_PROGRAM&referrerUsername=covenant_f2dl8ook" target="_blank" rel="noopener noreferrer" aria-label="Contra">
+            <svg viewBox="0 0 24 24" role="presentation"><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10c4.5 0 8.3-3 9.5-7.1h-4c-1 1.8-3 3.1-5.5 3.1A6 6 0 0 1 6 12a6 6 0 0 1 6-6c2.5 0 4.5 1.3 5.5 3.1h4C20.3 5 16.5 2 12 2Z" /></svg>
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      (function () {
+        var topBtn = document.getElementById("back-to-top");
+        if (topBtn) topBtn.addEventListener("click", function (e) { e.preventDefault(); window.scrollTo({ top: 0, behavior: "smooth" }); });
+        var carousel = document.getElementById("projects-carousel");
+        var prev = document.getElementById("carousel-prev");
+        var next = document.getElementById("carousel-next");
+        if (carousel && prev && next) {
+          prev.addEventListener("click", function () { carousel.scrollBy({ left: -324, behavior: "smooth" }); });
+          next.addEventListener("click", function () { carousel.scrollBy({ left: 324, behavior: "smooth" }); });
+        }
+        var toggle = document.querySelector(".nav-toggle");
+        var nav = document.getElementById("primary-nav");
+        var backdrop = document.getElementById("nav-backdrop");
+        if (toggle && nav) {
+          function closeMenu() { toggle.setAttribute("aria-expanded", "false"); nav.classList.remove("is-open"); if (backdrop) { backdrop.classList.remove("is-visible"); backdrop.setAttribute("aria-hidden", "true"); } document.body.style.overflow = ""; }
+          function openMenu() { toggle.setAttribute("aria-expanded", "true"); nav.classList.add("is-open"); if (backdrop) { backdrop.classList.add("is-visible"); backdrop.setAttribute("aria-hidden", "false"); } document.body.style.overflow = "hidden"; }
+          toggle.addEventListener("click", function () { nav.classList.contains("is-open") ? closeMenu() : openMenu(); });
+          if (backdrop) backdrop.addEventListener("click", closeMenu);
+          nav.querySelectorAll("a").forEach(function (l) { l.addEventListener("click", closeMenu); });
+        }
+        var video = document.getElementById("sn-showcase-video");
+        var btn = document.getElementById("sn-showcase-play");
+        var wrap = document.getElementById("sn-showcase-wrap");
+        if (video && btn && wrap) {
+          function setPlaying(playing) {
+            wrap.classList.toggle("is-playing", playing);
+            btn.setAttribute("aria-label", playing ? "Pause video" : "Play video");
+            btn.textContent = playing ? "❚❚" : "▶";
+            wrap.classList.toggle("is-paused-mid", !playing && video.currentTime > 0 && !video.ended);
+          }
+          function toggleVideo(e) {
+            if (e) e.stopPropagation();
+            if (video.paused) {
+              var p = video.play();
+              if (p && p.then) p.then(function () { setPlaying(true); }).catch(function () {});
+              else setPlaying(true);
+            } else { video.pause(); setPlaying(false); }
+          }
+          btn.addEventListener("click", toggleVideo);
+          wrap.addEventListener("click", function (e) {
+            if (e.target === video || e.target === wrap) toggleVideo(e);
+          });
+          video.addEventListener("ended", function () {
+            setPlaying(false);
+            wrap.classList.remove("is-paused-mid");
+          });
+        }
+      })();
+    </script>
+  </body>
+</html>

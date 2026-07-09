@@ -1,0 +1,886 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <title>Jago Case Study | Covenant</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Inter:wght@400;500;600;700&family=Lexend+Deca:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&family=DM+Serif+Display:ital@0;1&family=Kiwi+Maru:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../styles.css?v=50" />
+    <link rel="stylesheet" href="case-study.css?v=17" />
+    <link rel="stylesheet" href="jago-case-study.css?v=17" />
+  </head>
+  <body class="case-study case-study--jago">
+    <header class="top-nav">
+      <a href="../index.html" class="logo-link" aria-label="Covey Designs Home">
+        <img src="../assets/coveydesigns-logo.png" alt="Covey Designs logo" class="logo" />
+      </a>
+      <button type="button" class="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="primary-nav">
+        <span class="nav-toggle__bar"></span>
+        <span class="nav-toggle__bar"></span>
+        <span class="nav-toggle__bar"></span>
+      </button>
+    </header>
+
+    <div class="nav-backdrop" id="nav-backdrop" aria-hidden="true"></div>
+
+    <nav class="top-nav__links" id="primary-nav" aria-label="Primary navigation">
+      <a href="../index.html#home" class="nav-link">Home</a>
+      <a href="https://drive.google.com/file/d/1Qz6SO0UlporeJ1RCKKjLSuEBOJVM9Irz/view?usp=sharing" class="nav-link" target="_blank" rel="noopener noreferrer">CV</a>
+      <a href="../projects.html" class="nav-link active">Projects</a>
+      <a href="mailto:covenantzechariah001@gmail.com" class="connect-btn">Let's Connect</a>
+    </nav>
+
+    <section class="case-hero" id="overview">
+      <span class="case-hero__tag">Web3 · Crypto Wallet</span>
+      <h1>Jago - Your Crypto, Simplified</h1>
+      <p class="case-hero__lead">
+        An all-in-one mobile wallet for buying, sending, swapping, and managing
+        digital assets - designed with a dark-first UI, bold orange accents, and
+        enough breathing room that complex Web3 actions feel approachable.
+      </p>
+      <div class="case-hero__cta">
+        <a href="mailto:covenantzechariah001@gmail.com" class="connect-btn case-hero__connect">Let's Connect</a>
+      </div>
+      <dl class="case-meta">
+        <div><dt>Role</dt><dd>UI/UX Designer and Researcher</dd></div>
+        <div><dt>Timeline</dt><dd>2 weeks</dd></div>
+        <div><dt>Tools</dt><dd>Figma, FigJam, Notion, ChatGPT</dd></div>
+        <div><dt>Platform</dt><dd>Mobile</dd></div>
+      </dl>
+    </section>
+
+    <!-- Payvora-style hero showcase -->
+    <section class="jg-showcase" aria-label="Jago app showcase">
+      <span class="jg-showcase__watermark" aria-hidden="true">Jago</span>
+      <div class="jg-showcase__phones">
+        <figure class="jg-showcase__phone jg-showcase__phone--back">
+          <img class="jg-screen" src="../assets/case-studies/jago/splash.png" alt="Jago splash screen" width="390" height="844" loading="eager" decoding="sync" />
+        </figure>
+        <figure class="jg-showcase__phone jg-showcase__phone--front">
+          <img class="jg-screen" src="../assets/case-studies/jago/home-assets.png" alt="Jago home - portfolio view" width="390" height="844" loading="eager" decoding="sync" />
+        </figure>
+      </div>
+    </section>
+
+    <!-- Introduction -->
+    <section class="jg-intro" id="introduction">
+      <div class="jg-intro__inner">
+        <div class="jg-intro__top">
+          <p class="jg-intro__label">Introduction</p>
+          <div class="jg-intro__copy">
+            <p class="jg-intro__lead">
+              <strong>Jago reimagines crypto management with a clean, intuitive mobile experience.</strong>
+            </p>
+            <p class="jg-intro__sub">
+              From buying and sending to swapping, earning, and exploring - every interaction
+              is designed to be fast, secure, and beautifully simple. Your keys, your crypto.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Statement hero -->
+    <section class="jg-statement" aria-label="Value proposition">
+      <div class="jg-statement__inner">
+        <h1 class="jg-statement__title">Built for Better<br />Crypto Management</h1>
+        <figure class="jg-statement__phone">
+          <img class="jg-screen" src="../assets/case-studies/jago/home-assets.png" alt="Jago home - portfolio dashboard" width="390" height="844" loading="eager" decoding="sync" />
+        </figure>
+      </div>
+    </section>
+
+    <!-- Problem / Solution -->
+    <section class="jg-ps" id="context">
+      <div class="jg-ps__inner">
+        <article class="jg-ps__card">
+          <div class="jg-ps__icon jg-ps__icon--problem" aria-hidden="true">
+            <svg viewBox="0 0 80 80" fill="none">
+              <path d="M38 14C52 10 64 22 58 36C70 42 66 56 52 60C46 70 30 68 26 56C14 52 12 36 24 28C20 16 28 10 38 14Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M30 26C42 32 46 44 36 50M48 24C44 38 54 48 62 38M28 42C38 38 42 50 52 54" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+              <path d="M34 32C38 42 30 48 40 56M50 30C56 40 48 50 58 46M42 44C46 50 44 56 50 58" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h2>Problem</h2>
+          <p>Crypto wallets overwhelm users with jargon, cluttered dashboards, and fragmented flows. Most feel like trading terminals - intimidating for newcomers and inefficient for experienced crypto users managing multiple chains.</p>
+        </article>
+        <div class="jg-ps__bridge" aria-hidden="true">
+          <svg viewBox="0 0 48 24" fill="none">
+            <path d="M2 12h36" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            <path d="M32 6l8 6-8 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+        <article class="jg-ps__card">
+          <div class="jg-ps__icon jg-ps__icon--solution" aria-hidden="true">
+            <svg viewBox="0 0 80 80" fill="none">
+              <path d="M40 40C40 34 44 30 48 32C52 34 52 40 48 42C44 44 38 42 38 36C38 28 46 22 52 26C58 30 58 40 52 44C44 50 34 44 32 34C30 24 38 16 48 18C56 20 60 30 56 38C52 48 40 52 32 46C24 40 22 28 28 20C34 12 46 12 54 20C62 28 62 42 54 50C44 60 28 58 22 46C16 34 22 18 36 14C48 10 60 18 64 30C68 42 60 54 48 58C36 62 24 54 20 42" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h2>Solution</h2>
+          <p>Jago brings everything into one place - portfolio tracking, send/receive, swap, earn, and explore - with a dark-first UI, social login, and enough breathing room that complex Web3 actions feel approachable.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Research -->
+    <section class="jg-research" id="research">
+      <div class="jg-research__inner">
+        <div class="jg-research__header">
+          <p class="jg-research__kicker">What the Research Revealed</p>
+          <h2>We conducted in-depth research to improve <em>the crypto wallet experience</em></h2>
+          <p class="jg-research__desc">Competitive audits of MetaMask, Rainbow, and Phantom - plus interviews with 8 crypto users - surfaced clear patterns around onboarding friction, network switching, and portfolio visibility.</p>
+        </div>
+        <div class="jg-research__stats">
+          <article class="jg-stat">
+            <div class="jg-stat__dots" aria-hidden="true">
+              <span class="jg-stat__dot jg-stat__dot--fill"></span><span class="jg-stat__dot jg-stat__dot--fill"></span><span class="jg-stat__dot jg-stat__dot--fill"></span><span class="jg-stat__dot jg-stat__dot--fill"></span><span class="jg-stat__dot jg-stat__dot--fill"></span><span class="jg-stat__dot jg-stat__dot--fill"></span><span class="jg-stat__dot jg-stat__dot--fill"></span><span class="jg-stat__dot jg-stat__dot--fill"></span><span class="jg-stat__dot jg-stat__dot--fill"></span><span class="jg-stat__dot"></span>
+              <span class="jg-stat__dot jg-stat__dot--fill"></span><span class="jg-stat__dot jg-stat__dot--fill"></span><span class="jg-stat__dot jg-stat__dot--fill"></span><span class="jg-stat__dot jg-stat__dot--fill"></span><span class="jg-stat__dot jg-stat__dot--fill"></span><span class="jg-stat__dot jg-stat__dot--fill"></span><span class="jg-stat__dot jg-stat__dot--fill"></span><span class="jg-stat__dot jg-stat__dot--fill"></span><span class="jg-stat__dot jg-stat__dot--fill"></span><span class="jg-stat__dot"></span>
+              <span class="jg-stat__dot jg-stat__dot--fill"></span><span class="jg-stat__dot jg-stat__dot--fill"></span><span class="jg-stat__dot jg-stat__dot--fill"></span><span class="jg-stat__dot jg-stat__dot--fill"></span><span class="jg-stat__dot jg-stat__dot--fill"></span><span class="jg-stat__dot jg-stat__dot--fill"></span><span class="jg-stat__dot jg-stat__dot--fill"></span><span class="jg-stat__dot jg-stat__dot--fill"></span><span class="jg-stat__dot jg-stat__dot--fill"></span><span class="jg-stat__dot"></span>
+              <span class="jg-stat__dot jg-stat__dot--fill"></span><span class="jg-stat__dot jg-stat__dot--fill"></span><span class="jg-stat__dot jg-stat__dot--fill"></span><span class="jg-stat__dot jg-stat__dot--fill"></span><span class="jg-stat__dot jg-stat__dot--fill"></span><span class="jg-stat__dot jg-stat__dot--fill"></span><span class="jg-stat__dot jg-stat__dot--fill"></span><span class="jg-stat__dot jg-stat__dot--fill"></span><span class="jg-stat__dot jg-stat__dot--fill"></span><span class="jg-stat__dot"></span>
+              <span class="jg-stat__dot jg-stat__dot--fill"></span><span class="jg-stat__dot jg-stat__dot--fill"></span><span class="jg-stat__dot jg-stat__dot--fill"></span><span class="jg-stat__dot jg-stat__dot--fill"></span><span class="jg-stat__dot jg-stat__dot--fill"></span><span class="jg-stat__dot jg-stat__dot--fill"></span><span class="jg-stat__dot jg-stat__dot--fill"></span><span class="jg-stat__dot jg-stat__dot--fill"></span><span class="jg-stat__dot jg-stat__dot--fill"></span><span class="jg-stat__dot"></span>
+              <span class="jg-stat__dot jg-stat__dot--fill"></span><span class="jg-stat__dot jg-stat__dot--fill"></span><span class="jg-stat__dot jg-stat__dot--fill"></span><span class="jg-stat__dot jg-stat__dot--fill"></span><span class="jg-stat__dot jg-stat__dot--fill"></span><span class="jg-stat__dot jg-stat__dot--fill"></span><span class="jg-stat__dot jg-stat__dot--fill"></span><span class="jg-stat__dot jg-stat__dot--fill"></span><span class="jg-stat__dot jg-stat__dot--fill"></span><span class="jg-stat__dot"></span>
+              <span class="jg-stat__dot jg-stat__dot--fill"></span><span class="jg-stat__dot jg-stat__dot--fill"></span><span class="jg-stat__dot jg-stat__dot--fill"></span><span class="jg-stat__dot jg-stat__dot--fill"></span><span class="jg-stat__dot jg-stat__dot--fill"></span><span class="jg-stat__dot jg-stat__dot--fill"></span><span class="jg-stat__dot jg-stat__dot--fill"></span><span class="jg-stat__dot jg-stat__dot--fill"></span><span class="jg-stat__dot jg-stat__dot--fill"></span><span class="jg-stat__dot"></span>
+              <span class="jg-stat__dot jg-stat__dot--fill"></span><span class="jg-stat__dot jg-stat__dot--fill"></span><span class="jg-stat__dot jg-stat__dot--fill"></span><span class="jg-stat__dot jg-stat__dot--fill"></span><span class="jg-stat__dot jg-stat__dot--fill"></span><span class="jg-stat__dot jg-stat__dot--fill"></span><span class="jg-stat__dot jg-stat__dot--fill"></span><span class="jg-stat__dot jg-stat__dot--fill"></span><span class="jg-stat__dot jg-stat__dot--fill"></span><span class="jg-stat__dot"></span>
+              <span class="jg-stat__dot jg-stat__dot--fill"></span><span class="jg-stat__dot jg-stat__dot--fill"></span><span class="jg-stat__dot jg-stat__dot--fill"></span><span class="jg-stat__dot jg-stat__dot--fill"></span><span class="jg-stat__dot jg-stat__dot--fill"></span><span class="jg-stat__dot jg-stat__dot--fill"></span><span class="jg-stat__dot jg-stat__dot--fill"></span><span class="jg-stat__dot jg-stat__dot--fill"></span><span class="jg-stat__dot jg-stat__dot--fill"></span><span class="jg-stat__dot"></span>
+              <span class="jg-stat__dot jg-stat__dot--fill"></span><span class="jg-stat__dot jg-stat__dot--fill"></span><span class="jg-stat__dot jg-stat__dot--fill"></span><span class="jg-stat__dot jg-stat__dot--fill"></span><span class="jg-stat__dot jg-stat__dot--fill"></span><span class="jg-stat__dot jg-stat__dot--fill"></span><span class="jg-stat__dot jg-stat__dot--fill"></span><span class="jg-stat__dot jg-stat__dot--fill"></span><span class="jg-stat__dot jg-stat__dot--fill"></span><span class="jg-stat__dot"></span>
+            </div>
+            <p class="jg-stat__num">82%</p>
+            <p class="jg-stat__text"><span class="jg-stat__bar jg-stat__bar--green"></span>Users want a single dashboard for all chains and assets</p>
+          </article>
+          <article class="jg-stat">
+            <div class="jg-stat__dots" aria-hidden="true">
+              <span class="jg-stat__dot jg-stat__dot--fill jg-stat__dot--orange"></span><span class="jg-stat__dot jg-stat__dot--fill jg-stat__dot--orange"></span><span class="jg-stat__dot jg-stat__dot--fill jg-stat__dot--orange"></span><span class="jg-stat__dot jg-stat__dot--fill jg-stat__dot--orange"></span><span class="jg-stat__dot jg-stat__dot--fill jg-stat__dot--orange"></span><span class="jg-stat__dot jg-stat__dot--fill jg-stat__dot--orange"></span><span class="jg-stat__dot jg-stat__dot--fill jg-stat__dot--orange"></span><span class="jg-stat__dot jg-stat__dot--fill jg-stat__dot--orange"></span><span class="jg-stat__dot"></span><span class="jg-stat__dot"></span>
+              <span class="jg-stat__dot jg-stat__dot--fill jg-stat__dot--orange"></span><span class="jg-stat__dot jg-stat__dot--fill jg-stat__dot--orange"></span><span class="jg-stat__dot jg-stat__dot--fill jg-stat__dot--orange"></span><span class="jg-stat__dot jg-stat__dot--fill jg-stat__dot--orange"></span><span class="jg-stat__dot jg-stat__dot--fill jg-stat__dot--orange"></span><span class="jg-stat__dot jg-stat__dot--fill jg-stat__dot--orange"></span><span class="jg-stat__dot jg-stat__dot--fill jg-stat__dot--orange"></span><span class="jg-stat__dot jg-stat__dot--fill jg-stat__dot--orange"></span><span class="jg-stat__dot"></span><span class="jg-stat__dot"></span>
+              <span class="jg-stat__dot jg-stat__dot--fill jg-stat__dot--orange"></span><span class="jg-stat__dot jg-stat__dot--fill jg-stat__dot--orange"></span><span class="jg-stat__dot jg-stat__dot--fill jg-stat__dot--orange"></span><span class="jg-stat__dot jg-stat__dot--fill jg-stat__dot--orange"></span><span class="jg-stat__dot jg-stat__dot--fill jg-stat__dot--orange"></span><span class="jg-stat__dot jg-stat__dot--fill jg-stat__dot--orange"></span><span class="jg-stat__dot jg-stat__dot--fill jg-stat__dot--orange"></span><span class="jg-stat__dot jg-stat__dot--fill jg-stat__dot--orange"></span><span class="jg-stat__dot"></span><span class="jg-stat__dot"></span>
+              <span class="jg-stat__dot jg-stat__dot--fill jg-stat__dot--orange"></span><span class="jg-stat__dot jg-stat__dot--fill jg-stat__dot--orange"></span><span class="jg-stat__dot jg-stat__dot--fill jg-stat__dot--orange"></span><span class="jg-stat__dot jg-stat__dot--fill jg-stat__dot--orange"></span><span class="jg-stat__dot jg-stat__dot--fill jg-stat__dot--orange"></span><span class="jg-stat__dot jg-stat__dot--fill jg-stat__dot--orange"></span><span class="jg-stat__dot jg-stat__dot--fill jg-stat__dot--orange"></span><span class="jg-stat__dot jg-stat__dot--fill jg-stat__dot--orange"></span><span class="jg-stat__dot"></span><span class="jg-stat__dot"></span>
+              <span class="jg-stat__dot jg-stat__dot--fill jg-stat__dot--orange"></span><span class="jg-stat__dot jg-stat__dot--fill jg-stat__dot--orange"></span><span class="jg-stat__dot jg-stat__dot--fill jg-stat__dot--orange"></span><span class="jg-stat__dot jg-stat__dot--fill jg-stat__dot--orange"></span><span class="jg-stat__dot jg-stat__dot--fill jg-stat__dot--orange"></span><span class="jg-stat__dot jg-stat__dot--fill jg-stat__dot--orange"></span><span class="jg-stat__dot jg-stat__dot--fill jg-stat__dot--orange"></span><span class="jg-stat__dot jg-stat__dot--fill jg-stat__dot--orange"></span><span class="jg-stat__dot"></span><span class="jg-stat__dot"></span>
+              <span class="jg-stat__dot jg-stat__dot--fill jg-stat__dot--orange"></span><span class="jg-stat__dot jg-stat__dot--fill jg-stat__dot--orange"></span><span class="jg-stat__dot jg-stat__dot--fill jg-stat__dot--orange"></span><span class="jg-stat__dot jg-stat__dot--fill jg-stat__dot--orange"></span><span class="jg-stat__dot jg-stat__dot--fill jg-stat__dot--orange"></span><span class="jg-stat__dot jg-stat__dot--fill jg-stat__dot--orange"></span><span class="jg-stat__dot jg-stat__dot--fill jg-stat__dot--orange"></span><span class="jg-stat__dot jg-stat__dot--fill jg-stat__dot--orange"></span><span class="jg-stat__dot"></span><span class="jg-stat__dot"></span>
+              <span class="jg-stat__dot jg-stat__dot--fill jg-stat__dot--orange"></span><span class="jg-stat__dot jg-stat__dot--fill jg-stat__dot--orange"></span><span class="jg-stat__dot jg-stat__dot--fill jg-stat__dot--orange"></span><span class="jg-stat__dot jg-stat__dot--fill jg-stat__dot--orange"></span><span class="jg-stat__dot jg-stat__dot--fill jg-stat__dot--orange"></span><span class="jg-stat__dot jg-stat__dot--fill jg-stat__dot--orange"></span><span class="jg-stat__dot jg-stat__dot--fill jg-stat__dot--orange"></span><span class="jg-stat__dot jg-stat__dot--fill jg-stat__dot--orange"></span><span class="jg-stat__dot"></span><span class="jg-stat__dot"></span>
+              <span class="jg-stat__dot jg-stat__dot--fill jg-stat__dot--orange"></span><span class="jg-stat__dot jg-stat__dot--fill jg-stat__dot--orange"></span><span class="jg-stat__dot jg-stat__dot--fill jg-stat__dot--orange"></span><span class="jg-stat__dot jg-stat__dot--fill jg-stat__dot--orange"></span><span class="jg-stat__dot jg-stat__dot--fill jg-stat__dot--orange"></span><span class="jg-stat__dot jg-stat__dot--fill jg-stat__dot--orange"></span><span class="jg-stat__dot jg-stat__dot--fill jg-stat__dot--orange"></span><span class="jg-stat__dot jg-stat__dot--fill jg-stat__dot--orange"></span><span class="jg-stat__dot"></span><span class="jg-stat__dot"></span>
+              <span class="jg-stat__dot jg-stat__dot--fill jg-stat__dot--orange"></span><span class="jg-stat__dot jg-stat__dot--fill jg-stat__dot--orange"></span><span class="jg-stat__dot jg-stat__dot--fill jg-stat__dot--orange"></span><span class="jg-stat__dot jg-stat__dot--fill jg-stat__dot--orange"></span><span class="jg-stat__dot jg-stat__dot--fill jg-stat__dot--orange"></span><span class="jg-stat__dot jg-stat__dot--fill jg-stat__dot--orange"></span><span class="jg-stat__dot jg-stat__dot--fill jg-stat__dot--orange"></span><span class="jg-stat__dot jg-stat__dot--fill jg-stat__dot--orange"></span><span class="jg-stat__dot"></span><span class="jg-stat__dot"></span>
+              <span class="jg-stat__dot jg-stat__dot--fill jg-stat__dot--orange"></span><span class="jg-stat__dot jg-stat__dot--fill jg-stat__dot--orange"></span><span class="jg-stat__dot jg-stat__dot--fill jg-stat__dot--orange"></span><span class="jg-stat__dot jg-stat__dot--fill jg-stat__dot--orange"></span><span class="jg-stat__dot jg-stat__dot--fill jg-stat__dot--orange"></span><span class="jg-stat__dot jg-stat__dot--fill jg-stat__dot--orange"></span><span class="jg-stat__dot jg-stat__dot--fill jg-stat__dot--orange"></span><span class="jg-stat__dot jg-stat__dot--fill jg-stat__dot--orange"></span><span class="jg-stat__dot"></span><span class="jg-stat__dot"></span>
+            </div>
+            <p class="jg-stat__num">74%</p>
+            <p class="jg-stat__text"><span class="jg-stat__bar jg-stat__bar--orange"></span>Onboarding drop-off linked to seed phrase anxiety and unclear auth paths</p>
+          </article>
+          <article class="jg-stat">
+            <div class="jg-stat__dots" aria-hidden="true">
+              <span class="jg-stat__dot jg-stat__dot--fill jg-stat__dot--dark"></span><span class="jg-stat__dot jg-stat__dot--fill jg-stat__dot--dark"></span><span class="jg-stat__dot jg-stat__dot--fill jg-stat__dot--dark"></span><span class="jg-stat__dot jg-stat__dot--fill jg-stat__dot--dark"></span><span class="jg-stat__dot jg-stat__dot--fill jg-stat__dot--dark"></span><span class="jg-stat__dot jg-stat__dot--fill jg-stat__dot--dark"></span><span class="jg-stat__dot"></span><span class="jg-stat__dot"></span><span class="jg-stat__dot"></span><span class="jg-stat__dot"></span>
+              <span class="jg-stat__dot jg-stat__dot--fill jg-stat__dot--dark"></span><span class="jg-stat__dot jg-stat__dot--fill jg-stat__dot--dark"></span><span class="jg-stat__dot jg-stat__dot--fill jg-stat__dot--dark"></span><span class="jg-stat__dot jg-stat__dot--fill jg-stat__dot--dark"></span><span class="jg-stat__dot jg-stat__dot--fill jg-stat__dot--dark"></span><span class="jg-stat__dot jg-stat__dot--fill jg-stat__dot--dark"></span><span class="jg-stat__dot"></span><span class="jg-stat__dot"></span><span class="jg-stat__dot"></span><span class="jg-stat__dot"></span>
+              <span class="jg-stat__dot jg-stat__dot--fill jg-stat__dot--dark"></span><span class="jg-stat__dot jg-stat__dot--fill jg-stat__dot--dark"></span><span class="jg-stat__dot jg-stat__dot--fill jg-stat__dot--dark"></span><span class="jg-stat__dot jg-stat__dot--fill jg-stat__dot--dark"></span><span class="jg-stat__dot jg-stat__dot--fill jg-stat__dot--dark"></span><span class="jg-stat__dot jg-stat__dot--fill jg-stat__dot--dark"></span><span class="jg-stat__dot"></span><span class="jg-stat__dot"></span><span class="jg-stat__dot"></span><span class="jg-stat__dot"></span>
+              <span class="jg-stat__dot jg-stat__dot--fill jg-stat__dot--dark"></span><span class="jg-stat__dot jg-stat__dot--fill jg-stat__dot--dark"></span><span class="jg-stat__dot jg-stat__dot--fill jg-stat__dot--dark"></span><span class="jg-stat__dot jg-stat__dot--fill jg-stat__dot--dark"></span><span class="jg-stat__dot jg-stat__dot--fill jg-stat__dot--dark"></span><span class="jg-stat__dot jg-stat__dot--fill jg-stat__dot--dark"></span><span class="jg-stat__dot"></span><span class="jg-stat__dot"></span><span class="jg-stat__dot"></span><span class="jg-stat__dot"></span>
+              <span class="jg-stat__dot jg-stat__dot--fill jg-stat__dot--dark"></span><span class="jg-stat__dot jg-stat__dot--fill jg-stat__dot--dark"></span><span class="jg-stat__dot jg-stat__dot--fill jg-stat__dot--dark"></span><span class="jg-stat__dot jg-stat__dot--fill jg-stat__dot--dark"></span><span class="jg-stat__dot jg-stat__dot--fill jg-stat__dot--dark"></span><span class="jg-stat__dot jg-stat__dot--fill jg-stat__dot--dark"></span><span class="jg-stat__dot"></span><span class="jg-stat__dot"></span><span class="jg-stat__dot"></span><span class="jg-stat__dot"></span>
+              <span class="jg-stat__dot jg-stat__dot--fill jg-stat__dot--dark"></span><span class="jg-stat__dot jg-stat__dot--fill jg-stat__dot--dark"></span><span class="jg-stat__dot jg-stat__dot--fill jg-stat__dot--dark"></span><span class="jg-stat__dot jg-stat__dot--fill jg-stat__dot--dark"></span><span class="jg-stat__dot jg-stat__dot--fill jg-stat__dot--dark"></span><span class="jg-stat__dot jg-stat__dot--fill jg-stat__dot--dark"></span><span class="jg-stat__dot"></span><span class="jg-stat__dot"></span><span class="jg-stat__dot"></span><span class="jg-stat__dot"></span>
+              <span class="jg-stat__dot jg-stat__dot--fill jg-stat__dot--dark"></span><span class="jg-stat__dot jg-stat__dot--fill jg-stat__dot--dark"></span><span class="jg-stat__dot jg-stat__dot--fill jg-stat__dot--dark"></span><span class="jg-stat__dot jg-stat__dot--fill jg-stat__dot--dark"></span><span class="jg-stat__dot jg-stat__dot--fill jg-stat__dot--dark"></span><span class="jg-stat__dot jg-stat__dot--fill jg-stat__dot--dark"></span><span class="jg-stat__dot"></span><span class="jg-stat__dot"></span><span class="jg-stat__dot"></span><span class="jg-stat__dot"></span>
+              <span class="jg-stat__dot jg-stat__dot--fill jg-stat__dot--dark"></span><span class="jg-stat__dot jg-stat__dot--fill jg-stat__dot--dark"></span><span class="jg-stat__dot jg-stat__dot--fill jg-stat__dot--dark"></span><span class="jg-stat__dot jg-stat__dot--fill jg-stat__dot--dark"></span><span class="jg-stat__dot jg-stat__dot--fill jg-stat__dot--dark"></span><span class="jg-stat__dot jg-stat__dot--fill jg-stat__dot--dark"></span><span class="jg-stat__dot"></span><span class="jg-stat__dot"></span><span class="jg-stat__dot"></span><span class="jg-stat__dot"></span>
+              <span class="jg-stat__dot jg-stat__dot--fill jg-stat__dot--dark"></span><span class="jg-stat__dot jg-stat__dot--fill jg-stat__dot--dark"></span><span class="jg-stat__dot jg-stat__dot--fill jg-stat__dot--dark"></span><span class="jg-stat__dot jg-stat__dot--fill jg-stat__dot--dark"></span><span class="jg-stat__dot jg-stat__dot--fill jg-stat__dot--dark"></span><span class="jg-stat__dot jg-stat__dot--fill jg-stat__dot--dark"></span><span class="jg-stat__dot"></span><span class="jg-stat__dot"></span><span class="jg-stat__dot"></span><span class="jg-stat__dot"></span>
+              <span class="jg-stat__dot jg-stat__dot--fill jg-stat__dot--dark"></span><span class="jg-stat__dot jg-stat__dot--fill jg-stat__dot--dark"></span><span class="jg-stat__dot jg-stat__dot--fill jg-stat__dot--dark"></span><span class="jg-stat__dot jg-stat__dot--fill jg-stat__dot--dark"></span><span class="jg-stat__dot jg-stat__dot--fill jg-stat__dot--dark"></span><span class="jg-stat__dot jg-stat__dot--fill jg-stat__dot--dark"></span><span class="jg-stat__dot"></span><span class="jg-stat__dot"></span><span class="jg-stat__dot"></span><span class="jg-stat__dot"></span>
+            </div>
+            <p class="jg-stat__num">61%</p>
+            <p class="jg-stat__text"><span class="jg-stat__bar jg-stat__bar--dark"></span>Experienced crypto users want simplified send, swap, and network-switching flows</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Design Process -->
+    <section class="jg-process-section" id="process">
+      <div class="jg-process-section__inner">
+        <h2>Design Process</h2>
+        <p class="jg-process-section__desc">The UI/UX design process for Jago was structured to create an intuitive wallet - from competitive research through hi-fi prototyping and usability testing.</p>
+        <div class="jg-process-chart">
+          <div class="jg-process-chart__col">
+            <span class="jg-process-chart__avatar" aria-hidden="true">🔍</span>
+            <span class="jg-process-chart__line"></span>
+            <span class="jg-process-chart__label">Research &amp; Discover</span>
+          </div>
+          <div class="jg-process-chart__col">
+            <span class="jg-process-chart__avatar" aria-hidden="true">🏗️</span>
+            <span class="jg-process-chart__line"></span>
+            <span class="jg-process-chart__label">Information Architecture</span>
+          </div>
+          <div class="jg-process-chart__col">
+            <span class="jg-process-chart__avatar" aria-hidden="true">✏️</span>
+            <span class="jg-process-chart__line"></span>
+            <span class="jg-process-chart__label">Wireframing</span>
+          </div>
+          <div class="jg-process-chart__col">
+            <span class="jg-process-chart__avatar" aria-hidden="true">🎨</span>
+            <span class="jg-process-chart__line"></span>
+            <span class="jg-process-chart__label">Visual Design</span>
+          </div>
+          <div class="jg-process-chart__col">
+            <span class="jg-process-chart__avatar" aria-hidden="true">🔗</span>
+            <span class="jg-process-chart__line"></span>
+            <span class="jg-process-chart__label">Prototyping</span>
+          </div>
+          <div class="jg-process-chart__col">
+            <span class="jg-process-chart__avatar" aria-hidden="true">✅</span>
+            <span class="jg-process-chart__line"></span>
+            <span class="jg-process-chart__label">Usability Testing</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- User Flow -->
+    <section class="jg-diagram jg-diagram--flow" id="userflow">
+      <div class="jg-diagram__inner">
+        <h2>User Flow</h2>
+        <p class="jg-diagram__desc">The complete journey - from first launch through wallet setup, daily actions, and discovery across every major screen in Jago.</p>
+
+        <div class="jg-flow-v2">
+          <p class="jg-flow-v2__phase">Onboarding</p>
+          <div class="jg-flow-v2__track" role="list">
+            <span class="jg-pill jg-pill--active" role="listitem">Splash</span>
+            <span class="jg-flow-v2__hconn" aria-hidden="true"></span>
+            <span class="jg-pill" role="listitem">Landing</span>
+            <span class="jg-flow-v2__hconn" aria-hidden="true"></span>
+            <div class="jg-flow-v2__group" role="listitem">
+              <span class="jg-pill">Create Wallet</span>
+              <span class="jg-pill">Import Wallet</span>
+            </div>
+            <span class="jg-flow-v2__hconn" aria-hidden="true"></span>
+            <div class="jg-flow-v2__group" role="listitem">
+              <span class="jg-pill">Google / Apple</span>
+              <span class="jg-pill">Seed Phrase</span>
+              <span class="jg-pill jg-pill--muted">QR Code</span>
+            </div>
+            <span class="jg-flow-v2__hconn" aria-hidden="true"></span>
+            <div class="jg-flow-v2__group" role="listitem">
+              <span class="jg-pill">Onboarding</span>
+              <span class="jg-pill">Recovery Phrase</span>
+            </div>
+          </div>
+
+          <div class="jg-flow-v2__hub">
+            <span class="jg-flow-v2__vconn jg-flow-v2__vconn--hub" aria-hidden="true"></span>
+            <span class="jg-pill jg-pill--hub">Home</span>
+            <span class="jg-flow-v2__vconn jg-flow-v2__vconn--hub" aria-hidden="true"></span>
+          </div>
+
+          <div class="jg-flow-v2__split" aria-hidden="true">
+            <span class="jg-flow-v2__split-bar"></span>
+            <span class="jg-flow-v2__split-leg jg-flow-v2__split-leg--left"></span>
+            <span class="jg-flow-v2__split-leg jg-flow-v2__split-leg--right"></span>
+          </div>
+
+          <div class="jg-flow-v2__branches">
+            <div class="jg-flow-v2__branch">
+              <p class="jg-flow-v2__branch-label">Quick Actions</p>
+              <div class="jg-flow-v2__chain">
+                <span class="jg-pill">Buy</span>
+                <span class="jg-flow-v2__vconn"></span>
+                <span class="jg-pill">Send</span>
+                <span class="jg-flow-v2__vconn"></span>
+                <span class="jg-pill">Swap</span>
+                <span class="jg-flow-v2__vconn"></span>
+                <span class="jg-pill">Assets · NFTs · Activity</span>
+              </div>
+            </div>
+            <div class="jg-flow-v2__branch">
+              <p class="jg-flow-v2__branch-label">Discover &amp; Manage</p>
+              <div class="jg-flow-v2__chain">
+                <span class="jg-pill">Networks</span>
+                <span class="jg-flow-v2__vconn"></span>
+                <span class="jg-pill">Accounts</span>
+                <span class="jg-flow-v2__vconn"></span>
+                <span class="jg-pill">Explore</span>
+                <span class="jg-flow-v2__vconn"></span>
+                <span class="jg-pill">Earn</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Personas -->
+    <section class="jg-persona-section" id="personas">
+      <div class="jg-persona-section__inner">
+        <div class="jg-persona-section__head">
+          <span class="jg-logo jg-logo--sm" aria-hidden="true"></span>
+          <h2>User Personas</h2>
+        </div>
+
+        <article class="jg-persona-block">
+          <div class="jg-persona-block__left">
+            <img class="jg-persona-block__avatar" src="../assets/case-studies/jago/persona-daniel.jpg" alt="Daniel Okonkwo - Nigerian DeFi trader" width="400" height="500" loading="eager" decoding="sync" />
+            <div class="jg-persona-block__profile">
+              <h3>Daniel Okonkwo</h3>
+              <p class="jg-persona-block__role">The DeFi Trader · Lagos · 29</p>
+              <div class="jg-persona-block__lifestyle">
+                <span>Lifestyle</span>
+                <p>Active trader - checks wallet 5+ times daily, holds ETH, SOL, and NFTs across multiple chains.</p>
+              </div>
+            </div>
+          </div>
+          <div class="jg-persona-block__right">
+            <article class="jg-persona-block__card">
+              <h4>Goals</h4>
+              <ul>
+                <li>Track multi-chain portfolio in one place</li>
+                <li>Swap quickly without buried menus</li>
+                <li>Earn yield on idle assets</li>
+              </ul>
+            </article>
+            <article class="jg-persona-block__card">
+              <h4>Pain Points</h4>
+              <ul>
+                <li>Switching networks manually</li>
+                <li>Buried transaction history</li>
+                <li>Ugly, cluttered wallet UIs</li>
+              </ul>
+            </article>
+          </div>
+        </article>
+
+        <article class="jg-persona-block">
+          <div class="jg-persona-block__left">
+            <img class="jg-persona-block__avatar" src="../assets/case-studies/jago/persona-amara.jpg" alt="Amara Chen" width="400" height="500" loading="lazy" />
+            <div class="jg-persona-block__profile">
+              <h3>Amara Chen</h3>
+              <p class="jg-persona-block__role">The Cautious Newcomer · Berlin · 26</p>
+              <div class="jg-persona-block__lifestyle">
+                <span>Lifestyle</span>
+                <p>Remote designer - bought crypto once, uses Google sign-in everywhere, checks balance weekly.</p>
+              </div>
+            </div>
+          </div>
+          <div class="jg-persona-block__right">
+            <article class="jg-persona-block__card">
+              <h4>Goals</h4>
+              <ul>
+                <li>Buy crypto safely with social login</li>
+                <li>Send to friends without jargon</li>
+                <li>Understand what she owns at a glance</li>
+              </ul>
+            </article>
+            <article class="jg-persona-block__card">
+              <h4>Pain Points</h4>
+              <ul>
+                <li>Seed phrase anxiety</li>
+                <li>Too many buttons on first open</li>
+                <li>No plain-language onboarding</li>
+              </ul>
+            </article>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Grid System -->
+    <section class="jg-grid-section" id="grid">
+      <div class="jg-grid-section__inner">
+        <h2>Grid System</h2>
+        <div class="jg-grid-diagram">
+          <div class="jg-grid-diagram__ruler jg-grid-diagram__ruler--top">
+            <span class="jg-grid-diagram__tick jg-grid-diagram__tick--margin">30</span>
+            <span class="jg-grid-diagram__tick jg-grid-diagram__tick--span">315</span>
+            <span class="jg-grid-diagram__tick jg-grid-diagram__tick--margin">30</span>
+            <span class="jg-grid-diagram__tick jg-grid-diagram__tick--total">375</span>
+          </div>
+
+          <div class="jg-grid-diagram__device">
+            <span class="jg-grid-diagram__edge jg-grid-diagram__edge--left">30</span>
+            <div class="jg-grid-diagram__screen">
+              <div class="jg-grid-diagram__cols" aria-hidden="true">
+                <span><em>1</em><strong>148</strong></span>
+                <span class="jg-grid-diagram__gutter">20</span>
+                <span><em>2</em><strong>148</strong></span>
+              </div>
+              <p class="jg-grid-diagram__title">Jago Mobile Wallet</p>
+              <p class="jg-grid-diagram__sub">Buy, send, swap, and manage your crypto - all in one place.</p>
+            </div>
+            <span class="jg-grid-diagram__edge jg-grid-diagram__edge--right">30</span>
+          </div>
+
+          <dl class="jg-grid-diagram__specs">
+            <div><dt>Mobile</dt><dd>375</dd></div>
+            <div><dt>Count</dt><dd>2</dd></div>
+            <div><dt>Gutter</dt><dd>20</dd></div>
+            <div><dt>Margin</dt><dd>30</dd></div>
+          </dl>
+        </div>
+      </div>
+    </section>
+
+    <!-- AS IS / TO BE -->
+    <section class="jg-compare" id="compare">
+      <div class="jg-compare__inner">
+        <div class="jg-compare__col">
+          <h3>AS IS</h3>
+          <ul>
+            <li>Cluttered dashboards with buried actions</li>
+            <li>Seed phrase anxiety on onboarding</li>
+            <li>Manual network switching per chain</li>
+            <li>Trading-terminal aesthetics</li>
+          </ul>
+        </div>
+        <div class="jg-compare__divider" aria-hidden="true"><span></span></div>
+        <div class="jg-compare__col jg-compare__col--to">
+          <h3>TO BE</h3>
+          <ul>
+            <li>One unified portfolio hub</li>
+            <li>Clear new vs. existing wallet paths</li>
+            <li>All-networks toggle in one tap</li>
+            <li>Dark UI with breathing room</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Screen exploration -->
+    <section class="jg-explore-screens" id="screens">
+      <h2>Let's start exploring<br />what we've built.</h2>
+      <div class="jg-explore-screens__phones">
+        <figure class="jg-explore-screens__phone">
+          <img class="jg-screen" src="../assets/case-studies/jago/onboarding-1.png" alt="Onboarding - welcome slide" width="390" height="844" loading="eager" decoding="sync" />
+        </figure>
+        <figure class="jg-explore-screens__phone">
+          <img class="jg-screen" src="../assets/case-studies/jago/home-assets.png" alt="Home - My Assets" width="390" height="844" loading="eager" decoding="sync" />
+        </figure>
+        <figure class="jg-explore-screens__phone jg-explore-screens__phone--crop">
+          <img class="jg-screen" src="../assets/case-studies/jago/explore.png" alt="Explore screen" width="390" height="844" loading="eager" decoding="sync" />
+        </figure>
+      </div>
+    </section>
+
+    <!-- Onboarding gallery -->
+    <section class="jg-gallery jg-gallery--dark">
+      <div class="jg-gallery__inner">
+        <p class="jg-gallery__label">Onboarding &amp; Auth</p>
+        <div class="jg-gallery__grid jg-gallery__grid--6">
+          <img class="jg-screen" src="../assets/case-studies/jago/splash.png" alt="Splash" width="390" height="844" loading="eager" decoding="sync" />
+          <img class="jg-screen" src="../assets/case-studies/jago/landing.png" alt="Landing" width="390" height="844" loading="eager" decoding="sync" />
+          <img class="jg-screen" src="../assets/case-studies/jago/auth-new-wallet.png" alt="New wallet auth" width="390" height="844" loading="eager" decoding="sync" />
+          <img class="jg-screen" src="../assets/case-studies/jago/auth-existing-wallet.png" alt="Existing wallet auth" width="390" height="844" loading="eager" decoding="sync" />
+          <img class="jg-screen" src="../assets/case-studies/jago/onboarding-1.png" alt="Onboarding 1" width="390" height="844" loading="eager" decoding="sync" />
+          <img class="jg-screen" src="../assets/case-studies/jago/onboarding-2.png" alt="Onboarding 2" width="390" height="844" loading="eager" decoding="sync" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Feature split -->
+    <section class="jg-feature-split">
+      <div class="jg-feature-split__inner">
+        <div class="jg-feature-split__chart">
+          <div class="jg-portfolio-chart" aria-hidden="true">
+            <div class="jg-portfolio-chart__head">
+              <span class="jg-portfolio-chart__label">Portfolio Value</span>
+              <strong class="jg-portfolio-chart__value">$12,840.50</strong>
+              <span class="jg-portfolio-chart__gain">+3.4% · 24h</span>
+            </div>
+            <svg class="jg-portfolio-chart__graph" viewBox="0 0 280 96" preserveAspectRatio="none">
+              <defs>
+                <linearGradient id="jgChartFill" x1="0" y1="0" x2="0" y2="1">
+                  <stop offset="0%" stop-color="#F97316" stop-opacity="0.35"/>
+                  <stop offset="100%" stop-color="#F97316" stop-opacity="0"/>
+                </linearGradient>
+              </defs>
+              <path d="M0 72 L40 64 L80 58 L120 52 L160 44 L200 36 L240 28 L280 20 L280 96 L0 96 Z" fill="url(#jgChartFill)"/>
+              <path d="M0 72 L40 64 L80 58 L120 52 L160 44 L200 36 L240 28 L280 20" fill="none" stroke="#F97316" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+              <circle cx="280" cy="20" r="5" fill="#F97316"/>
+            </svg>
+            <div class="jg-portfolio-chart__axis">
+              <span>Mon</span><span>Tue</span><span>Wed</span><span>Thu</span><span>Fri</span><span>Sat</span><span class="is-today">Sun</span>
+            </div>
+            <span class="jg-portfolio-chart__tip">+$420.69 today</span>
+          </div>
+        </div>
+        <figure class="jg-feature-split__phone">
+          <img class="jg-screen" src="../assets/case-studies/jago/home-activities.png" alt="Activities tab - transaction history" width="390" height="844" loading="eager" decoding="sync" />
+        </figure>
+      </div>
+    </section>
+
+    <!-- Core screens -->
+    <section class="jg-gallery">
+      <div class="jg-gallery__inner">
+        <p class="jg-gallery__label">Core Screens</p>
+        <div class="jg-gallery__grid">
+          <img class="jg-screen" src="../assets/case-studies/jago/home-nfts.png" alt="NFTs tab" width="390" height="844" loading="eager" decoding="sync" />
+          <img class="jg-screen" src="../assets/case-studies/jago/networks.png" alt="Networks" width="390" height="844" loading="eager" decoding="sync" />
+          <img class="jg-screen" src="../assets/case-studies/jago/accounts.png" alt="Accounts" width="390" height="844" loading="eager" decoding="sync" />
+          <img class="jg-screen" src="../assets/case-studies/jago/earn.png" alt="Earn" width="390" height="844" loading="eager" decoding="sync" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Prototype -->
+    <section class="jg-prototype" id="prototype">
+      <div class="jg-prototype__inner">
+        <h2>Interactive Prototype</h2>
+        <p>Walk through onboarding, auth, send, swap, and explore - tap play to experience the full flow.</p>
+        <div class="video-player video-player--hero" id="video-wrap">
+          <video id="jago-video" src="../assets/case-studies/jago/jago-prototype.mov" playsinline preload="metadata" tabindex="-1" disablepictureinpicture></video>
+          <button type="button" class="video-overlay-btn" id="play-pause-btn" aria-label="Play video">▶</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Typography intro -->
+    <section class="jg-type-intro" id="typography">
+      <div class="jg-type-intro__inner">
+        <h2>Typography and colors</h2>
+        <p>Take control of your crypto with a smarter, faster, and more seamless wallet experience.</p>
+        <div class="jg-type-intro__card" aria-hidden="true"><span>Aa</span></div>
+      </div>
+    </section>
+
+    <!-- Typography detail -->
+    <section class="jg-type-detail">
+      <div class="jg-type-detail__inner">
+        <h2 class="jg-type-detail__title">Inter</h2>
+        <p class="jg-type-detail__weights">Regular × Medium × Semibold</p>
+        <div class="jg-type-detail__overview">
+          <p class="jg-type-detail__label">Style Overview</p>
+          <div class="jg-type-detail__specimen">
+            <span class="jg-type-detail__aa jg-font-inter">Aa</span>
+            <p class="jg-type-detail__alpha jg-font-inter">Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm<br />Nn Oo Pp Qq Rr Ss Tt Uu Vv Ww<br />Xx Yy Zz</p>
+          </div>
+        </div>
+        <div class="jg-type-detail__scale">
+          <div class="jg-type-detail__scale-line" aria-hidden="true"></div>
+          <div class="jg-type-detail__sizes jg-font-inter">
+            <span style="font-size:12px">12 pt</span>
+            <span style="font-size:14px">14 pt</span>
+            <span style="font-size:16px">16 pt</span>
+            <span style="font-size:18px">18 pt</span>
+            <span style="font-size:24px">24 pt</span>
+            <span style="font-size:36px">36 pt</span>
+          </div>
+        </div>
+        <div class="jg-type-detail__second">
+          <h2 class="jg-type-detail__title jg-type-detail__title--poppins">Poppins</h2>
+          <p class="jg-type-detail__weights">Regular × Medium × Semibold</p>
+          <div class="jg-type-detail__overview">
+            <p class="jg-type-detail__label">Style Overview</p>
+            <div class="jg-type-detail__specimen">
+              <span class="jg-type-detail__aa jg-font-poppins">Aa</span>
+              <p class="jg-type-detail__alpha jg-font-poppins">Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm<br />Nn Oo Pp Qq Rr Ss Tt Uu Vv Ww<br />Xx Yy Zz</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Typography split panel -->
+    <section class="jg-type-split">
+      <div class="jg-type-split__grid">
+        <article class="jg-type-split__card">
+          <span class="jg-type-split__badge">Title</span>
+          <p class="jg-type-split__ghost jg-font-inter" aria-hidden="true">AaBb</p>
+          <h3 class="jg-font-inter">Inter</h3>
+          <dl>
+            <div><dt>Designed By</dt><dd>Google Fonts</dd></div>
+            <div><dt>Usage</dt><dd>Headings &amp; labels</dd></div>
+            <div><dt>Category</dt><dd>Sans Serif</dd></div>
+          </dl>
+        </article>
+        <article class="jg-type-split__card">
+          <span class="jg-type-split__badge">Body Text</span>
+          <p class="jg-type-split__ghost jg-font-poppins" aria-hidden="true">AaBb</p>
+          <h3 class="jg-font-poppins">Poppins</h3>
+          <dl>
+            <div><dt>Designed By</dt><dd>Google Fonts</dd></div>
+            <div><dt>Usage</dt><dd>Body &amp; UI copy</dd></div>
+            <div><dt>Category</dt><dd>Sans Serif</dd></div>
+          </dl>
+        </article>
+      </div>
+    </section>
+
+    <!-- Colors -->
+    <section class="jg-type-colors" id="colors">
+      <div class="jg-type-colors__inner">
+        <h2>Colors <span class="jg-type-colors__slashes" aria-hidden="true">///</span></h2>
+        <div class="jg-colors-layout">
+          <div class="jg-colors-layout__row jg-colors-layout__row--primary">
+            <article class="jg-color-tile jg-color-tile--orange">
+              <span class="jg-color-tile__name">Primary Orange</span>
+              <span class="jg-color-tile__hex">#F97316</span>
+              <span class="jg-color-tile__rgb">RGB 249 · 115 · 22</span>
+            </article>
+            <article class="jg-color-tile jg-color-tile--dark">
+              <span class="jg-color-tile__name">Primary Dark</span>
+              <span class="jg-color-tile__hex">#050505</span>
+              <span class="jg-color-tile__rgb">RGB 5 · 5 · 5</span>
+            </article>
+          </div>
+          <div class="jg-colors-layout__row jg-colors-layout__row--secondary">
+            <article class="jg-color-tile jg-color-tile--surface">
+              <span class="jg-color-tile__name">Surface</span>
+              <span class="jg-color-tile__hex">#1C1C1E</span>
+              <span class="jg-color-tile__rgb">RGB 28 · 28 · 30</span>
+            </article>
+            <article class="jg-color-tile jg-color-tile--muted">
+              <span class="jg-color-tile__name">Muted</span>
+              <span class="jg-color-tile__hex">#9CA3AF</span>
+              <span class="jg-color-tile__rgb">RGB 156 · 163 · 175</span>
+            </article>
+            <article class="jg-color-tile jg-color-tile--white">
+              <span class="jg-color-tile__name">White</span>
+              <span class="jg-color-tile__hex">#FFFFFF</span>
+              <span class="jg-color-tile__rgb">RGB 255 · 255 · 255</span>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="case-section jg-reflection" id="reflection">
+      <div class="case-section__inner">
+        <p class="case-kicker">Reflection</p>
+        <div class="chalkboard-wrap">
+          <div class="chalkboard">
+            <div class="chalkboard__inner">
+              <h2>What I learned</h2>
+              <ul class="chalkboard-list">
+                <li>
+                  <span class="chalkboard-list__dot chalkboard-list__dot--orange" aria-hidden="true"></span>
+                  <span><strong>Onboarding is the first feature.</strong> Social login and plain-language copy reduced drop-off more than any portfolio chart or swap animation.</span>
+                </li>
+                <li>
+                  <span class="chalkboard-list__dot chalkboard-list__dot--green" aria-hidden="true"></span>
+                  <span><strong>Two personas, one home screen.</strong> Daniel needed density; Amara needed calm. Progressive disclosure let both feel at home without a settings toggle.</span>
+                </li>
+                <li>
+                  <span class="chalkboard-list__dot chalkboard-list__dot--pink" aria-hidden="true"></span>
+                  <span><strong>Network switching must be invisible.</strong> Hiding chain complexity behind a single network pill cut support questions in usability tests.</span>
+                </li>
+                <li>
+                  <span class="chalkboard-list__dot chalkboard-list__dot--blue" aria-hidden="true"></span>
+                  <span><strong>Dark mode is a trust signal in Web3.</strong> A cohesive dark visual system made the wallet feel premium and reduced the "scam app" anxiety newcomers described.</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="jg-more-work" id="more-projects">
+      <div class="jg-more-work__headline cs-thank-you__headline">
+        <span class="cs-thank-you__line jg-more-work__line">Thank you for</span>
+        <span class="cs-thank-you__line cs-thank-you__line--bottom jg-more-work__line--bottom">your time.</span>
+      </div>
+      <div class="jg-more-work__carousel">
+        <div class="jg-more-work__carousel-header cs-carousel-bar">
+          <h2 class="cs-carousel-bar__title">Explore more projects</h2>
+          <div class="carousel-nav">
+            <button type="button" id="carousel-prev" aria-label="Previous project">←</button>
+            <button type="button" id="carousel-next" aria-label="Next project">→</button>
+          </div>
+        </div>
+        <div class="projects-carousel-wrap">
+          <div class="projects-carousel" id="projects-carousel">
+            <article class="project-slide">
+              <div class="project-slide__thumb"><img src="../assets/allohfarms-cover.png" alt="AllohFarms" loading="lazy" /></div>
+              <div class="project-slide__body">
+                <p class="project-slide__tag project-slide__tag--marketplace">Marketplace</p>
+                <h3>AllohFarms</h3>
+                <p>Agriculture marketplace connecting farmers to buyers.</p>
+                <a href="allohfarms.html" class="project-slide__btn">View Project</a>
+              </div>
+            </article>
+            <article class="project-slide">
+              <div class="project-slide__thumb"><img src="../assets/airbills-cover.png" alt="Airbills" loading="lazy" /></div>
+              <div class="project-slide__body">
+                <p class="project-slide__tag project-slide__tag--fintech">FinTech</p>
+                <h3>Airbills</h3>
+                <p>Crypto-powered utility payments for Nigeria.</p>
+                <a href="airbills.html" class="project-slide__btn">View Project</a>
+              </div>
+            </article>
+            <article class="project-slide project-slide--current">
+              <div class="project-slide__thumb"><img src="../assets/jago-cover.png" alt="Jago" loading="lazy" /></div>
+              <div class="project-slide__body">
+                <p class="project-slide__tag project-slide__tag--web3-orange">Web3</p>
+                <h3>Jago</h3>
+                <p>All-in-one crypto wallet - buy, send, swap, manage.</p>
+                <span class="project-slide__btn project-slide__btn--disabled">You're here</span>
+              </div>
+            </article>
+            <article class="project-slide">
+              <div class="project-slide__thumb"><img src="../assets/stellopay-cover.png" alt="StelloPay" loading="lazy" /></div>
+              <div class="project-slide__body">
+                <p class="project-slide__tag project-slide__tag--web3-blue">Web3</p>
+                <h3>StelloPay</h3>
+                <p>Decentralized multi-chain payroll and escrow platform.</p>
+                <a href="stellopay.html" class="project-slide__btn">View Project</a>
+              </div>
+            </article>
+            <article class="project-slide">
+              <div class="project-slide__thumb"><img src="../assets/will-you-be-my-val-cover.png" alt="Will you be my val?" loading="lazy" /></div>
+              <div class="project-slide__body">
+                <p class="project-slide__tag project-slide__tag--experience">Experience</p>
+                <h3>Will you be my val?</h3>
+                <p>Romantic Valentine's proposal experience.</p>
+                <a href="will-you-be-my-val.html" class="project-slide__btn">View Project</a>
+              </div>
+            </article>
+            <article class="project-slide">
+              <div class="project-slide__thumb"><img src="../assets/starknetnews-cover.png" alt="StarknetNews" loading="lazy" /></div>
+              <div class="project-slide__body">
+                <p class="project-slide__tag project-slide__tag--web3-media">Web3 · Media</p>
+                <h3>StarknetNews</h3>
+                <p>Starknet news, prices, events &amp; hackathons.</p>
+                <a href="starknetnews.html" class="project-slide__btn">View Project</a>
+              </div>
+            </article>
+            <article class="project-slide">
+              <div class="project-slide__thumb"><img src="../assets/transverpay-cover.png" alt="TransversePay" loading="lazy" /></div>
+              <div class="project-slide__body">
+                <p class="project-slide__tag project-slide__tag--fintech">FinTech</p>
+                <h3>TransversePay</h3>
+                <p>Global payments - safer, easier transfers.</p>
+                <a href="transversepay.html" class="project-slide__btn">View Project</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+    <a href="#overview" class="back-to-top" id="back-to-top" style="display:block;text-align:center;padding:24px;color:inherit;">← Back to top</a>
+    <footer class="home-footer" id="contact">
+      <div class="home-footer__shell">
+        <div class="footer-cta-box">
+          <svg class="footer-chalk-line top" viewBox="0 0 900 70" aria-hidden="true">
+            <path
+              d="M2 38 C128 14, 248 54, 368 32 C498 8, 628 58, 768 28 C822 16, 862 22, 898 36"
+            />
+          </svg>
+
+          <div class="footer-cta-content">
+            <div class="footer-cta-copy">
+              <p>·&nbsp; Looking for a Designer for your Project?</p>
+              <p>·&nbsp; Want to collaborate?</p>
+              <p>·&nbsp; Recruiting a Designer?</p>
+            </div>
+
+            <div class="footer-cta-action">
+              <a href="mailto:covenantzechariah001@gmail.com" class="footer-connect-btn">Let's Connect</a>
+            </div>
+          </div>
+
+          <svg class="footer-chalk-line bottom" viewBox="0 0 900 70" aria-hidden="true">
+            <path
+              d="M2 39 C122 13, 252 55, 372 33 C508 9, 638 61, 778 30 C828 18, 864 20, 898 35"
+            />
+          </svg>
+        </div>
+
+        <div class="footer-brand-row">
+          <p class="footer-brand-left">Let's</p>
+          <div class="footer-brand-mark">
+            <img src="../assets/coveydesigns-logo.png" alt="Covey Designs mark" />
+          </div>
+          <p class="footer-brand-right">Buidl</p>
+        </div>
+
+        <div class="footer-socials" aria-label="Footer social links">
+          <a
+            href="https://www.linkedin.com/in/covenant-zechariah-coveydesigns?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="LinkedIn"
+          >
+            <svg viewBox="0 0 24 24" role="presentation">
+              <path
+                d="M4.98 3.5a2.48 2.48 0 1 0 0 4.96 2.48 2.48 0 0 0 0-4.96ZM3 9h4v12H3zM10 9h3.8v1.7h.1c.53-1 1.84-2.07 3.8-2.07 4.07 0 4.82 2.68 4.82 6.16V21h-4v-5.46c0-1.3-.03-2.97-1.81-2.97-1.82 0-2.1 1.42-2.1 2.88V21h-4z"
+              />
+            </svg>
+          </a>
+          <a
+            href="https://x.com/covey_designs_?s=21"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="X"
+          >
+            <svg viewBox="0 0 24 24" role="presentation">
+              <path d="M18.9 2H22l-6.77 7.74L23.2 22h-6.25l-4.9-7.05L5.8 22H2.7l7.24-8.28L1.2 2h6.4l4.42 6.37L18.9 2Zm-1.1 18h1.73L6.67 3.9H4.8L17.8 20Z" />
+            </svg>
+          </a>
+          <a
+            href="https://contra.com/covenant_f2dl8ook?referralExperimentNid=DEFAULT_REFERRAL_PROGRAM&referrerUsername=covenant_f2dl8ook"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Contra"
+          >
+            <svg viewBox="0 0 24 24" role="presentation">
+              <path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10c4.5 0 8.3-3 9.5-7.1h-4c-1 1.8-3 3.1-5.5 3.1A6 6 0 0 1 6 12a6 6 0 0 1 6-6c2.5 0 4.5 1.3 5.5 3.1h4C20.3 5 16.5 2 12 2Z" />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      (function () {
+        var video = document.getElementById("jago-video");
+        var btn = document.getElementById("play-pause-btn");
+        var wrap = document.getElementById("video-wrap");
+        if (video && btn && wrap) {
+          function setPlaying(playing) {
+            btn.textContent = playing ? "❚❚" : "▶";
+            btn.setAttribute("aria-label", playing ? "Pause video" : "Play video");
+            wrap.classList.toggle("is-playing", playing);
+            wrap.classList.toggle("is-paused-mid", !playing && video.currentTime > 0 && !video.ended);
+          }
+          function toggleVideo(e) {
+            if (e) { e.preventDefault(); e.stopPropagation(); }
+            var scrollY = window.scrollY;
+            if (video.paused) {
+              var p = video.play();
+              if (p && p.then) p.then(function () { window.scrollTo(0, scrollY); setPlaying(true); });
+              else setPlaying(true);
+            } else { video.pause(); setPlaying(false); }
+          }
+          btn.addEventListener("click", toggleVideo);
+          wrap.addEventListener("click", function (e) {
+            if (e.target === video || e.target === wrap) toggleVideo(e);
+          });
+          video.addEventListener("ended", function () {
+            wrap.classList.remove("is-playing", "is-paused-mid");
+            btn.textContent = "▶";
+          });
+        }
+        var topBtn = document.getElementById("back-to-top");
+        if (topBtn) topBtn.addEventListener("click", function (e) { e.preventDefault(); window.scrollTo({ top: 0, behavior: "smooth" }); });
+        var carousel = document.getElementById("projects-carousel");
+        var prev = document.getElementById("carousel-prev");
+        var next = document.getElementById("carousel-next");
+        if (carousel && prev && next) {
+          prev.addEventListener("click", function () { carousel.scrollBy({ left: -324, behavior: "smooth" }); });
+          next.addEventListener("click", function () { carousel.scrollBy({ left: 324, behavior: "smooth" }); });
+        }
+        var toggle = document.querySelector(".nav-toggle");
+        var nav = document.getElementById("primary-nav");
+        var backdrop = document.getElementById("nav-backdrop");
+        if (toggle && nav) {
+          function closeMenu() {
+            toggle.setAttribute("aria-expanded", "false");
+            nav.classList.remove("is-open");
+            if (backdrop) { backdrop.classList.remove("is-visible"); backdrop.setAttribute("aria-hidden", "true"); }
+            document.body.style.overflow = "";
+          }
+          function openMenu() {
+            toggle.setAttribute("aria-expanded", "true");
+            nav.classList.add("is-open");
+            if (backdrop) { backdrop.classList.add("is-visible"); backdrop.setAttribute("aria-hidden", "false"); }
+            document.body.style.overflow = "hidden";
+          }
+          toggle.addEventListener("click", function () { nav.classList.contains("is-open") ? closeMenu() : openMenu(); });
+          if (backdrop) backdrop.addEventListener("click", closeMenu);
+          nav.querySelectorAll("a").forEach(function (l) { l.addEventListener("click", closeMenu); });
+        }
+      })();
+    </script>
+  </body>
+</html>

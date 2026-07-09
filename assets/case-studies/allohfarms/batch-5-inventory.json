@@ -1,0 +1,42 @@
+{
+  "project": "AllohFarms",
+  "batch": 5,
+  "status": "gathered - seller dashboards",
+  "total_screens": 23,
+  "description": "Seller dashboard overview, product catalog, orders, messages, wallet, profile settings, and notifications",
+  "categories": {
+    "seller-dashboard": {
+      "count": 1,
+      "description": "Dashboard overview with KPIs, revenue chart, best sellers, and recent transactions"
+    },
+    "seller-products": {
+      "count": 7,
+      "description": "My Products tabs (all/active/low stock/out of stock), add/edit/view product modals"
+    },
+    "seller-orders": {
+      "count": 1,
+      "description": "Order management table with status filters and stats"
+    },
+    "seller-messages": {
+      "count": 2,
+      "description": "Inbox list and conversation thread"
+    },
+    "seller-wallet": {
+      "count": 4,
+      "description": "Wallets & earnings overview, edit payment details, withdraw funds"
+    },
+    "seller-profile": {
+      "count": 6,
+      "description": "Profile settings tabs: business, security, bank, notifications, reviews, top farmers"
+    },
+    "seller-notifications": {
+      "count": 2,
+      "description": "Notifications panel and empty state"
+    }
+  },
+  "notes": [
+    "Seller nav: Dashboard · My Products · Orders · Messages · Wallet",
+    "Profile accessed via avatar; includes 6 tabbed settings sections",
+    "Wallet_1_or is a layout variant of the main wallets screen"
+  ]
+}

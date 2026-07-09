@@ -1,0 +1,23 @@
+{
+  "project": "AllohFarms",
+  "batch": 7,
+  "status": "gathered - founder / super-admin settings",
+  "total_screens": 5,
+  "description": "Founder profile settings (personal, security, platform config) and team management with new admin invite modal",
+  "categories": {
+    "founder-profile": {
+      "count": 3,
+      "description": "Personal information, security (2FA), and platform-wide settings (commission, fees, toggles, email templates)"
+    },
+    "founder-teams": {
+      "count": 2,
+      "description": "Team overview dashboard with KPIs and new admin account creation modal"
+    }
+  },
+  "notes": [
+    "Founder nav adds Teams alongside standard admin links",
+    "Profile sidebar shows permission checklist (User Management, Financial Reporting, Farm Verification, System Configuration)",
+    "Platform Settings tab centralizes commission rates, security toggles, and notification preferences",
+    "New Admin modal includes role level, granular permissions, and 24-hour invite expiry notice"
+  ]
+}

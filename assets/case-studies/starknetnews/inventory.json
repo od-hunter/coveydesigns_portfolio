@@ -1,0 +1,62 @@
+{
+  "design-system-overview.png": {
+    "w": 1024,
+    "h": 778
+  },
+  "wireframe-desktop-home.png": {
+    "w": 522,
+    "h": 1024
+  },
+  "wireframe-desktop-news.png": {
+    "w": 764,
+    "h": 1024
+  },
+  "wireframe-desktop-prices.png": {
+    "w": 557,
+    "h": 1024
+  },
+  "wireframe-desktop-hackathons.png": {
+    "w": 429,
+    "h": 1024
+  },
+  "wireframe-desktop-newsletter.png": {
+    "w": 693,
+    "h": 1024
+  },
+  "screen-desktop-home.png": {
+    "w": 406,
+    "h": 1024
+  },
+  "screen-mobile-home.png": {
+    "w": 83,
+    "h": 1024
+  },
+  "screen-mobile-news-games.png": {
+    "w": 184,
+    "h": 1024
+  },
+  "screen-mobile-feed.png": {
+    "w": 184,
+    "h": 1024
+  },
+  "screen-desktop-hackathons.png": {
+    "w": 787,
+    "h": 1024
+  },
+  "screen-desktop-newsletter.png": {
+    "w": 1024,
+    "h": 786
+  },
+  "screen-desktop-prices-metrics.png": {
+    "w": 1024,
+    "h": 1006
+  },
+  "screen-desktop-prices-tokens.png": {
+    "w": 765,
+    "h": 1024
+  },
+  "screen-desktop-prices-nft.png": {
+    "w": 765,
+    "h": 1024
+  }
+}

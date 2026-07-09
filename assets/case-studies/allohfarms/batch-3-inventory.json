@@ -1,0 +1,27 @@
+{
+  "project": "AllohFarms",
+  "batch": 3,
+  "status": "gathered - admin login & signup",
+  "total_screens": 8,
+  "description": "Admin invite acceptance, security credentials setup, email verification, and login",
+  "categories": {
+    "admin-login": {
+      "count": 1,
+      "screens": [
+        "admin-login-empty.png - Welcome Back Admin login form"
+      ]
+    },
+    "admin-registration": {
+      "count": 7,
+      "flow": [
+        "Step 1: Accept invitation (invite link opened - Financial Admin role)",
+        "Step 2: Account security setup - empty passwords & strong password filled with strength meter",
+        "Step 4: Email verification - empty, code entered, verifying, success"
+      ]
+    }
+  },
+  "notes": [
+    "Admin stepper uses 3 visible steps: Accept Invite Link → Security Credentials → Final Verification (skips Step 3 label)",
+    "step4-email-verified-success.png body copy references Trusted Seller - likely shared template; may need admin-specific copy in case study"
+  ]
+}

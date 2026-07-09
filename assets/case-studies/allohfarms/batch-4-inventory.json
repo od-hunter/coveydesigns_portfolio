@@ -1,0 +1,49 @@
+{
+  "project": "AllohFarms",
+  "batch": 4,
+  "status": "gathered - buyer marketplace & dashboards",
+  "total_screens": 32,
+  "description": "Buyer marketplace, cart, checkout, orders, saved produce, profile, transactions, notifications, and AI support",
+  "categories": {
+    "buyer-marketplace": {
+      "count": 4,
+      "description": "Product grid, personalized feed, product detail, manage interests modal"
+    },
+    "buyer-cart": {
+      "count": 1,
+      "description": "Shopping cart"
+    },
+    "buyer-checkout": {
+      "count": 7,
+      "description": "Delivery address, payment (card/bank/mobile), order success & failure"
+    },
+    "buyer-orders": {
+      "count": 8,
+      "description": "My Orders tabs, track order with map, order details, buy again, leave review"
+    },
+    "buyer-saved-produce": {
+      "count": 4,
+      "description": "Empty state and saved favorites grid/list views"
+    },
+    "buyer-profile": {
+      "count": 4,
+      "description": "Profile overview and edit/personal info modals"
+    },
+    "buyer-transactions": {
+      "count": 1,
+      "description": "Transaction history"
+    },
+    "buyer-notifications": {
+      "count": 2,
+      "description": "Notifications dropdown and full page"
+    },
+    "buyer-support": {
+      "count": 1,
+      "description": "AI chatbot assistant"
+    }
+  },
+  "notes": [
+    "Supersedes buyer-marketplace-hold screens from batch 1 (2 older marketplace grids)",
+    "Shared nav across dashboards: Marketplace · My Orders · Saved Produce · Transactions"
+  ]
+}

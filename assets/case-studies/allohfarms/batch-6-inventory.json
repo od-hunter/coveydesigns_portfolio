@@ -1,0 +1,50 @@
+{
+  "project": "AllohFarms",
+  "batch": 6,
+  "status": "gathered - admin dashboards",
+  "total_screens": 26,
+  "description": "Admin dashboard overview, user/product/order management, verifications & approvals, financials, messages, profile, and notifications",
+  "categories": {
+    "admin-dashboard": {
+      "count": 2,
+      "description": "Platform overview KPIs and generate financial report modal"
+    },
+    "admin-users": {
+      "count": 5,
+      "description": "Buyer/seller management tables, profile modals, generate report"
+    },
+    "admin-products": {
+      "count": 3,
+      "description": "Product management grid, product details modal, generate report"
+    },
+    "admin-orders": {
+      "count": 2,
+      "description": "Order management table and generate report modal"
+    },
+    "admin-verifications": {
+      "count": 7,
+      "description": "Farmer verification review, approvals tabs (all/orders/products/new seller), report modal"
+    },
+    "admin-financials": {
+      "count": 2,
+      "description": "Payout management, revenue charts, transaction history, generate report"
+    },
+    "admin-messages": {
+      "count": 2,
+      "description": "Admin inbox and conversation thread"
+    },
+    "admin-profile": {
+      "count": 2,
+      "description": "Personal information and security settings"
+    },
+    "admin-notifications": {
+      "count": 1,
+      "description": "Notifications dropdown panel"
+    }
+  },
+  "notes": [
+    "Admin nav: Dashboard · Users · Products · Orders · Messages · Verifications & Approvals · Financials",
+    "Generate Financial Report modal appears across multiple admin sections (shared component)",
+    "Verification queue uses Verifications vs Approvals sub-tabs with expanded farmer credential review"
+  ]
+}
