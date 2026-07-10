@@ -1177,7 +1177,7 @@ a {
 .about-lead {
   margin: 0 0 10px;
   max-width: 980px;
-  font-size: 18px;
+  font-size: 15px;
   line-height: 1.5;
   color: #a8d8f0;
 }
@@ -1429,11 +1429,11 @@ a {
 }
 
 .about-oss__label {
-  margin: 0 auto clamp(32px, 5vw, 48px);
-  max-width: 28ch;
+  margin: 0 auto clamp(28px, 4vw, 40px);
   font-family: "DM Serif Display", serif;
-  font-size: clamp(26px, 3.4vw, 38px);
-  line-height: 1.25;
+  font-size: 24px;
+  line-height: 1.08;
+  font-weight: 400;
   color: var(--chalk);
 }
 
@@ -1442,13 +1442,18 @@ a {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  gap: clamp(36px, 7vw, 72px);
+  gap: clamp(4px, 1vw, 8px);
+}
+
+.about-oss__logo--starknet {
+  margin-right: -4px;
 }
 
 .about-oss__logo {
   display: flex;
   align-items: center;
   justify-content: center;
+  height: 26px;
   text-decoration: none;
   transition: opacity 0.2s ease, transform 0.2s ease;
 }
@@ -1460,10 +1465,14 @@ a {
 
 .about-oss__logo img {
   display: block;
+  height: 26px;
   width: auto;
-  height: clamp(34px, 4.8vw, 46px);
-  max-width: min(240px, 72vw);
   object-fit: contain;
+}
+
+.about-oss__logo--starknet,
+.about-oss__logo--starknet img {
+  height: 52px;
 }
 
 .about-reflection-shell {
@@ -2047,7 +2056,7 @@ a {
   }
 
   .about-lead {
-    font-size: 16px;
+    font-size: 14px;
     line-height: var(--leading-body);
   }
 
@@ -2086,17 +2095,22 @@ a {
   }
 
   .about-oss__label {
-    font-size: 24px;
-    max-width: none;
+    font-size: 18px;
   }
 
   .about-oss__logos {
     flex-direction: column;
-    gap: 28px;
+    gap: 6px;
   }
 
+  .about-oss__logo,
   .about-oss__logo img {
-    height: 40px;
+    height: 22px;
+  }
+
+  .about-oss__logo--starknet,
+  .about-oss__logo--starknet img {
+    height: 38px;
   }
 
   .home-footer {
