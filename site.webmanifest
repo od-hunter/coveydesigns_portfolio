@@ -1,8 +1,10 @@
 {
+  "id": "/",
   "name": "Covey Designs",
   "short_name": "Covey",
   "description": "Covenant — UI/UX Designer portfolio",
   "start_url": "/",
+  "scope": "/",
   "display": "standalone",
   "background_color": "#0b0b0b",
   "theme_color": "#0b0b0b",
@@ -14,13 +16,19 @@
       "purpose": "any"
     },
     {
+      "src": "/assets/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
       "src": "/assets/icon-512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "/assets/icon-512.png",
+      "src": "/assets/icon-512-maskable.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable"
