@@ -26,10 +26,15 @@ body.case-study--allohfarms .case-hero__tag {
   color: var(--af-green);
 }
 
-body.case-study--allohfarms .connect-btn {
+body.case-study--allohfarms .case-hero .case-hero__connect {
   background: var(--af-green);
   border-color: var(--af-green);
   color: #fff;
+  box-shadow: 2px 2px 0 rgba(47, 107, 69, 0.28);
+}
+
+body.case-study--allohfarms .case-hero .case-hero__connect:hover {
+  background: #286339;
 }
 
 body.case-study--allohfarms .project-slide__tag--marketplace {

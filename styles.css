@@ -271,6 +271,19 @@ a {
   background: var(--connect-pink-hover);
 }
 
+/* Nav "Let's Connect" — always brand pink on every page */
+.top-nav__links > .connect-btn {
+  background: var(--connect-pink);
+  color: var(--chalk);
+  border: none;
+  box-shadow: 2px 2px 0 var(--chalk);
+}
+
+.top-nav__links > .connect-btn:hover {
+  background: var(--connect-pink-hover);
+  color: var(--chalk);
+}
+
 .connect-btn::after,
 .footer-connect-btn::after {
   content: "";
@@ -1920,6 +1933,15 @@ a {
     font-size: 17px;
     padding: 12px 20px;
     animation: none;
+    background: var(--connect-pink);
+    color: var(--chalk);
+    border: none;
+    box-shadow: 2px 2px 0 var(--chalk);
+  }
+
+  .top-nav__links .connect-btn:hover {
+    background: var(--connect-pink-hover);
+    color: var(--chalk);
   }
 
   .top-nav__links .connect-btn::after {

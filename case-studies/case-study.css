@@ -1402,3 +1402,16 @@ body.case-study .more-projects .carousel-nav button:hover {
 .back-to-top:hover {
   color: var(--airbills-orange);
 }
+
+/* Nav connect stays pink — case-study page themes must not affect the menu */
+body.case-study .top-nav__links > .connect-btn {
+  background: var(--connect-pink);
+  color: var(--chalk);
+  border: none;
+  box-shadow: 2px 2px 0 var(--chalk);
+}
+
+body.case-study .top-nav__links > .connect-btn:hover {
+  background: var(--connect-pink-hover);
+  color: var(--chalk);
+}
