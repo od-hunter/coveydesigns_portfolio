@@ -271,6 +271,111 @@ a {
   background: var(--connect-pink-hover);
 }
 
+/* Connect choice dialog (email vs Contra) */
+.connect-choice {
+  position: fixed;
+  inset: 0;
+  z-index: 200;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+}
+
+.connect-choice[hidden] {
+  display: none;
+}
+
+.connect-choice__backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(11, 11, 11, 0.72);
+}
+
+.connect-choice__panel {
+  position: relative;
+  z-index: 1;
+  width: min(100%, 360px);
+  padding: 28px 24px 22px;
+  border-radius: 18px;
+  background: #141414;
+  border: 1px solid rgba(242, 242, 238, 0.14);
+  box-shadow: 0 18px 48px rgba(0, 0, 0, 0.45);
+  text-align: center;
+}
+
+.connect-choice__title {
+  margin: 0 0 22px;
+  font-family: "DM Serif Display", serif;
+  font-size: clamp(1.25rem, 3vw, 1.5rem);
+  font-weight: 400;
+  line-height: 1.2;
+  color: var(--chalk);
+}
+
+.connect-choice__options {
+  display: grid;
+  gap: 12px;
+}
+
+.connect-choice__option {
+  display: block;
+  width: 100%;
+  padding: 12px 18px;
+  border-radius: 999px;
+  font-size: 15px;
+  font-family: "Kiwi Maru", serif;
+  text-decoration: none;
+  transition: background 0.2s ease, transform 0.2s ease, color 0.2s ease;
+}
+
+.connect-choice__option--email,
+.connect-choice__option--email:hover,
+.connect-choice__option--email:focus,
+.connect-choice__option--email:focus-visible,
+.connect-choice__option--email:active {
+  background: #ffffff;
+  color: #101010;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.connect-choice__option--email:hover {
+  background: #f2f2ee;
+}
+
+.connect-choice__option--contra {
+  background: transparent;
+  color: var(--chalk);
+  border: 1px solid rgba(242, 242, 238, 0.35);
+}
+
+.connect-choice__option--contra:hover {
+  border-color: var(--chalk);
+  background: rgba(242, 242, 238, 0.06);
+}
+
+.connect-choice__close {
+  margin-top: 16px;
+  padding: 0;
+  border: none;
+  background: transparent;
+  color: var(--chalk-muted);
+  font-family: "Kiwi Maru", serif;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.connect-choice__close:hover {
+  color: var(--chalk);
+}
+
+body.connect-choice-open {
+  overflow: hidden;
+}
+
 /* Nav "Let's Connect" — always brand pink on every page */
 .top-nav__links > .connect-btn {
   background: var(--connect-pink);
@@ -1426,6 +1531,25 @@ a {
   padding: clamp(56px, 9vw, 96px) var(--page-padding);
   background: var(--bg);
   text-align: center;
+}
+
+/* Match projects section cream surface when placed on projects page */
+.projects-page .about-oss {
+  background: #efefea;
+  padding-top: clamp(40px, 6vw, 64px);
+}
+
+.projects-page .about-oss__label {
+  color: #101010;
+}
+
+/* Stellar mark is white-on-transparent; invert for cream background */
+.projects-page .about-oss__logo:not(.about-oss__logo--starknet) img {
+  filter: brightness(0);
+}
+
+.projects-page .about-oss__logo--starknet img {
+  filter: none;
 }
 
 .about-oss__label {
