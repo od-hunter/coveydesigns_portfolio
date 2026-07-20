@@ -24,7 +24,7 @@
     <link rel="stylesheet" href="../styles.css?v=73" />
     <link rel="stylesheet" href="case-study.css?v=20" />
     <link rel="stylesheet" href="jago-case-study.css?v=20" />
-    <link rel="stylesheet" href="innovatrix-case-study.css?v=7" />
+    <link rel="stylesheet" href="innovatrix-case-study.css?v=8" />
   </head>
   <body class="case-study case-study--innovatrix">
     <header class="top-nav">
@@ -58,14 +58,13 @@
         and businesses.
       </p>
       <div class="case-hero__cta">
-        <a href="https://www.innovatrixteams.com/" class="connect-btn case-hero__connect" target="_blank" rel="noopener noreferrer">Visit live site</a>
-        <a href="mailto:covenantzechariah001@gmail.com" class="connect-btn case-hero__connect case-hero__connect--ghost">Let's Connect</a>
+        <a href="mailto:covenantzechariah001@gmail.com" class="connect-btn case-hero__connect">Let's Connect</a>
       </div>
       <dl class="case-meta">
         <div><dt>Role</dt><dd>UI/UX Designer</dd></div>
         <div><dt>Timeline</dt><dd>5 days</dd></div>
         <div><dt>Tools</dt><dd>Figma, ChatGPT</dd></div>
-        <div><dt>Platform</dt><dd>Web (Desktop)</dd></div>
+        <div><dt>Platform</dt><dd>Web</dd></div>
       </dl>
     </section>
 
@@ -124,30 +123,12 @@
           </article>
           <article class="ix-pas__card ix-pas__card--solution">
             <p class="ix-pas__eyebrow">Solution</p>
-            <h3>A conversion-first system, not a one-off landing page</h3>
-            <div class="ix-pas__solution">
-              <p>
-                I designed Innovatrix as a small product ecosystem with one shared navigation model,
-                one footer system, and one visual language across Home, About, Services, Portfolio,
-                Blog, and Contact. Each page has a primary job: Home converts, Services explains,
-                About builds culture, Portfolio proves craft, Blog nurtures trust, and Contact
-                removes friction.
-              </p>
-              <p>
-                On Home, I prioritized a proof-first hierarchy - rating, talent cards, and client
-                logos sit above long-form storytelling so skimmers understand "design + build" before
-                they scroll. Services uses card contrast and dark primary emphasis so App Development
-                reads as the anchor offer, not one of three equal tiles. About carries mission,
-                stats, team, and careers in one narrative arc for hiring and credibility.
-              </p>
-              <p>
-                The UI system pairs Funnel Display for authority in heroes with Onest for readable
-                UI density in nav, forms, and labels. Purple and lime accents mark CTAs and proof
-                moments without breaking the premium navy base. Every pattern - hero, FAQ accordion,
-                testimonial rail, blog teaser - was designed to reuse so the build team could ship
-                fast and stay consistent post-launch.
-              </p>
-            </div>
+            <h3>A live, conversion-first multi-page site</h3>
+            <p>
+              One shared nav, footer, and visual system across Home, About, Services, Company,
+              and Contact. Home leads with proof and CTA, Services scans with clear hierarchy,
+              About carries culture and careers, and Contact stays low-friction.
+            </p>
             <p class="ix-pas__link">
               <a href="https://www.innovatrixteams.com/" target="_blank" rel="noopener noreferrer">innovatrixteams.com</a>
             </p>
@@ -224,12 +205,11 @@
         <p class="ix-section-label ix-sitemap__kicker">04 - Sitemap</p>
         <h2 class="ix-sitemap__title">Sitemap</h2>
         <p class="ix-sitemap__desc">
-          A flat primary nav with depth only where content naturally branches - blog posts and
-          careers live under their parent pages, not in the global menu.
+          Primary nav stays flat. Portfolio and Blog sit under Company, matching how prospects
+          browse work and stories without cluttering the top bar.
         </p>
         <div class="ix-sitemap__viz" role="img" aria-label="Innovatrix Teams website sitemap">
           <div class="ix-sitemap__home">
-            <span class="ix-sitemap__dots" aria-hidden="true"><i></i><i></i><i></i></span>
             <span class="ix-sitemap__label">Home</span>
           </div>
           <div class="ix-sitemap__connector" aria-hidden="true">
@@ -238,21 +218,21 @@
           </div>
           <div class="ix-sitemap__row">
             <div class="ix-sitemap__col">
-              <div class="ix-sitemap__page"><span class="ix-sitemap__dots" aria-hidden="true"><i></i><i></i><i></i></span><span>About</span></div>
+              <div class="ix-sitemap__page"><span>About</span></div>
             </div>
             <div class="ix-sitemap__col">
-              <div class="ix-sitemap__page"><span class="ix-sitemap__dots" aria-hidden="true"><i></i><i></i><i></i></span><span>Services</span></div>
-            </div>
-            <div class="ix-sitemap__col">
-              <div class="ix-sitemap__page"><span class="ix-sitemap__dots" aria-hidden="true"><i></i><i></i><i></i></span><span>Portfolio</span></div>
+              <div class="ix-sitemap__page"><span>Services</span></div>
             </div>
             <div class="ix-sitemap__col ix-sitemap__col--branch">
-              <div class="ix-sitemap__page"><span class="ix-sitemap__dots" aria-hidden="true"><i></i><i></i><i></i></span><span>Blog</span></div>
+              <div class="ix-sitemap__page"><span>Company</span></div>
               <span class="ix-sitemap__substem" aria-hidden="true"></span>
-              <div class="ix-sitemap__page ix-sitemap__page--sub"><span class="ix-sitemap__dots" aria-hidden="true"><i></i><i></i><i></i></span><span>Blog Details</span></div>
+              <div class="ix-sitemap__branch-row">
+                <div class="ix-sitemap__page ix-sitemap__page--sub"><span>Portfolio</span></div>
+                <div class="ix-sitemap__page ix-sitemap__page--sub"><span>Blog</span></div>
+              </div>
             </div>
             <div class="ix-sitemap__col">
-              <div class="ix-sitemap__page"><span class="ix-sitemap__dots" aria-hidden="true"><i></i><i></i><i></i></span><span>Contact</span></div>
+              <div class="ix-sitemap__page"><span>Contact</span></div>
             </div>
           </div>
         </div>
@@ -268,82 +248,18 @@
           scroll rhythm - before color, type, and imagery were applied.
         </p>
         <div class="ix-lofi__grid">
-          <article class="ix-wf">
-            <header class="ix-wf__head">
-              <span class="ix-wf__tag">Home</span>
-              <p>Proof-first landing funnel</p>
-            </header>
-            <div class="ix-wf__screen">
-              <div class="ix-wf__bar"><span></span><span></span><span></span></div>
-              <div class="ix-wf__nav"><span class="ix-wf__logo"></span><span class="ix-wf__navlinks"></span><span class="ix-wf__cta"></span></div>
-              <div class="ix-wf__hero">
-                <div class="ix-wf__hero-copy">
-                  <span class="ix-wf__line ix-wf__line--lg"></span>
-                  <span class="ix-wf__line ix-wf__line--md"></span>
-                  <span class="ix-wf__btn"></span>
-                </div>
-                <div class="ix-wf__hero-visual"></div>
-              </div>
-              <div class="ix-wf__cards ix-wf__cards--4">
-                <span></span><span></span><span></span><span></span>
-              </div>
-              <div class="ix-wf__logos"><span></span><span></span><span></span><span></span><span></span></div>
-              <div class="ix-wf__split">
-                <div class="ix-wf__block"></div>
-                <div class="ix-wf__block"></div>
-              </div>
-              <div class="ix-wf__cards ix-wf__cards--3"><span></span><span></span><span></span></div>
-              <div class="ix-wf__faq"><span></span><span></span><span></span></div>
-              <div class="ix-wf__footer"></div>
-            </div>
-          </article>
-
-          <article class="ix-wf">
-            <header class="ix-wf__head">
-              <span class="ix-wf__tag">About</span>
-              <p>Culture, team, and careers</p>
-            </header>
-            <div class="ix-wf__screen">
-              <div class="ix-wf__bar"><span></span><span></span><span></span></div>
-              <div class="ix-wf__nav"><span class="ix-wf__logo"></span><span class="ix-wf__navlinks"></span><span class="ix-wf__cta"></span></div>
-              <div class="ix-wf__hero ix-wf__hero--short">
-                <span class="ix-wf__line ix-wf__line--lg"></span>
-                <span class="ix-wf__line ix-wf__line--sm"></span>
-              </div>
-              <div class="ix-wf__banner"></div>
-              <div class="ix-wf__stats"><span></span><span></span><span></span></div>
-              <div class="ix-wf__cards ix-wf__cards--3"><span></span><span></span><span></span></div>
-              <div class="ix-wf__team">
-                <span></span><span></span><span></span><span></span>
-              </div>
-              <div class="ix-wf__roles"><span></span><span></span></div>
-              <div class="ix-wf__footer"></div>
-            </div>
-          </article>
-
-          <article class="ix-wf">
-            <header class="ix-wf__head">
-              <span class="ix-wf__tag">Services</span>
-              <p>Scannable offer hierarchy</p>
-            </header>
-            <div class="ix-wf__screen">
-              <div class="ix-wf__bar"><span></span><span></span><span></span></div>
-              <div class="ix-wf__nav"><span class="ix-wf__logo"></span><span class="ix-wf__navlinks"></span><span class="ix-wf__cta"></span></div>
-              <div class="ix-wf__hero ix-wf__hero--split">
-                <div class="ix-wf__hero-copy">
-                  <span class="ix-wf__line ix-wf__line--md"></span>
-                  <span class="ix-wf__line ix-wf__line--sm"></span>
-                </div>
-                <div class="ix-wf__hero-visual ix-wf__hero-visual--sm"></div>
-              </div>
-              <div class="ix-wf__cards ix-wf__cards--3 ix-wf__cards--services">
-                <span class="ix-wf__card-dark"></span><span></span><span></span>
-              </div>
-              <div class="ix-wf__grid"><span></span><span></span><span></span><span></span></div>
-              <div class="ix-wf__cta-band"><span class="ix-wf__btn"></span></div>
-              <div class="ix-wf__footer"></div>
-            </div>
-          </article>
+          <figure class="ix-lofi__item">
+            <figcaption class="ix-lofi__caption">Home</figcaption>
+            <img src="../assets/case-studies/innovatrix/wireframes/home.svg" alt="Lo-fi wireframe of Innovatrix home page" width="360" height="1400" loading="lazy" />
+          </figure>
+          <figure class="ix-lofi__item">
+            <figcaption class="ix-lofi__caption">About</figcaption>
+            <img src="../assets/case-studies/innovatrix/wireframes/about.svg" alt="Lo-fi wireframe of Innovatrix about page" width="360" height="1200" loading="lazy" />
+          </figure>
+          <figure class="ix-lofi__item">
+            <figcaption class="ix-lofi__caption">Services</figcaption>
+            <img src="../assets/case-studies/innovatrix/wireframes/services.svg" alt="Lo-fi wireframe of Innovatrix services page" width="360" height="900" loading="lazy" />
+          </figure>
         </div>
       </div>
     </section>
@@ -424,7 +340,6 @@
               <li>Relieved when process feels clear</li>
             </ul>
           </div>
-          <div class="ix-empathy__center"><span>Adaobi</span></div>
         </div>
       </div>
     </section>
@@ -542,60 +457,45 @@
       </div>
     </section>
 
-    <section class="ix-flows" id="user-flows">
-      <div class="ix-flows__inner">
-        <p class="ix-section-label">10 - User flows</p>
-        <h2>Primary paths through the live site</h2>
+    <section class="ix-uf" id="user-flows">
+      <div class="ix-uf__inner">
+        <p class="ix-section-label">10 - User flow</p>
+        <h2 class="ix-uf__title">User Flow</h2>
+        <p class="ix-uf__lead">
+          How a prospect moves from landing on the site to starting a conversation - with clear
+          decision points where they either continue or drop off.
+        </p>
 
-        <div class="ix-flowchart">
-          <p class="ix-flowchart__title">Prospect - hire path</p>
-          <div class="ix-flowchart__canvas" role="img" aria-label="Prospect hire flowchart">
-            <div class="ix-fc-node ix-fc-node--start">Start</div>
-            <div class="ix-fc-line" aria-hidden="true"></div>
-            <div class="ix-fc-node">Land on Home<br /><small>Scan hero + proof</small></div>
-            <div class="ix-fc-line" aria-hidden="true"></div>
-            <div class="ix-fc-diamond"><span>Clear fit?</span></div>
-            <div class="ix-fc-branch">
-              <div class="ix-fc-branch__col">
-                <span class="ix-fc-label">Yes</span>
-                <div class="ix-fc-line" aria-hidden="true"></div>
-                <div class="ix-fc-node">Services<br /><small>Match need to offer</small></div>
-                <div class="ix-fc-line" aria-hidden="true"></div>
-                <div class="ix-fc-node">About proof<br /><small>Stand-out / trust</small></div>
-                <div class="ix-fc-line" aria-hidden="true"></div>
-                <div class="ix-fc-node ix-fc-node--end">Contact<br /><small>Form or email</small></div>
-              </div>
-              <div class="ix-fc-branch__col">
-                <span class="ix-fc-label">No</span>
-                <div class="ix-fc-line" aria-hidden="true"></div>
-                <div class="ix-fc-node ix-fc-node--exit">Bounce / social DM</div>
-              </div>
-            </div>
+        <div class="ix-uf__board" role="img" aria-label="Prospect hire user flow">
+          <div class="ix-uf__col">
+            <div class="ix-uf__box">Homepage</div>
+            <span class="ix-uf__arrow" aria-hidden="true"></span>
+            <div class="ix-uf__diamond"><span>Clear fit?</span></div>
+            <span class="ix-uf__arrow ix-uf__arrow--yes" aria-hidden="true"></span>
+            <p class="ix-uf__branch-label ix-uf__branch-label--yes">yes</p>
           </div>
-        </div>
-
-        <div class="ix-flowchart">
-          <p class="ix-flowchart__title">Talent - careers path</p>
-          <div class="ix-flowchart__canvas" role="img" aria-label="Talent careers flowchart">
-            <div class="ix-fc-node ix-fc-node--start">Start</div>
-            <div class="ix-fc-line" aria-hidden="true"></div>
-            <div class="ix-fc-node">About<br /><small>Mission + culture</small></div>
-            <div class="ix-fc-line" aria-hidden="true"></div>
-            <div class="ix-fc-node">Team<br /><small>Faces and roles</small></div>
-            <div class="ix-fc-line" aria-hidden="true"></div>
-            <div class="ix-fc-diamond"><span>Open role?</span></div>
-            <div class="ix-fc-branch">
-              <div class="ix-fc-branch__col">
-                <span class="ix-fc-label">Yes</span>
-                <div class="ix-fc-line" aria-hidden="true"></div>
-                <div class="ix-fc-node ix-fc-node--end">Apply / Let's Chat</div>
-              </div>
-              <div class="ix-fc-branch__col">
-                <span class="ix-fc-label">No</span>
-                <div class="ix-fc-line" aria-hidden="true"></div>
-                <div class="ix-fc-node ix-fc-node--exit">Follow socials</div>
-              </div>
-            </div>
+          <div class="ix-uf__col">
+            <div class="ix-uf__box">Services</div>
+            <span class="ix-uf__arrow" aria-hidden="true"></span>
+            <div class="ix-uf__box">Portfolio proof</div>
+            <span class="ix-uf__arrow" aria-hidden="true"></span>
+            <div class="ix-uf__box">About trust</div>
+            <span class="ix-uf__arrow" aria-hidden="true"></span>
+            <div class="ix-uf__diamond"><span>Ready to enquire?</span></div>
+            <span class="ix-uf__arrow ix-uf__arrow--yes" aria-hidden="true"></span>
+            <p class="ix-uf__branch-label ix-uf__branch-label--yes">yes</p>
+          </div>
+          <div class="ix-uf__col">
+            <div class="ix-uf__box">Contact</div>
+            <span class="ix-uf__arrow" aria-hidden="true"></span>
+            <div class="ix-uf__box">Fill short form</div>
+            <span class="ix-uf__arrow" aria-hidden="true"></span>
+            <div class="ix-uf__box ix-uf__box--end">Finish</div>
+          </div>
+          <div class="ix-uf__exit">
+            <p class="ix-uf__branch-label ix-uf__branch-label--no">no</p>
+            <span class="ix-uf__arrow ix-uf__arrow--dashed" aria-hidden="true"></span>
+            <div class="ix-uf__box ix-uf__box--muted">Bounce / social DM</div>
           </div>
         </div>
       </div>
@@ -604,7 +504,7 @@
     <section class="ix-intro" id="solution-pages">
       <div class="ix-intro__inner">
         <p class="ix-intro__label">11 - Final designs</p>
-        <h2 class="ix-intro__title">Home, About, and Services - shipped live</h2>
+        <h2 class="ix-intro__title">Home and About, shipped live</h2>
         <p class="ix-intro__text">
           Full-page exports of the core experience now live at
           <a href="https://www.innovatrixteams.com/" target="_blank" rel="noopener noreferrer">innovatrixteams.com</a>.
@@ -651,29 +551,6 @@
             alt="Innovatrix Teams about page full design"
             width="2880"
             height="10452"
-            loading="lazy"
-            decoding="async"
-          />
-        </figure>
-      </div>
-    </section>
-
-    <section class="ix-pages" id="services" aria-label="Innovatrix Teams services page">
-      <div class="ix-pages__inner">
-        <div class="ix-pages__header">
-          <span class="ix-pages__label">Services</span>
-          <h2>What they deliver - designed to scan</h2>
-          <p>
-            A hero with people + brand stamp, three service cards, a stand-out grid, and a soft
-            mid-page CTA into the shared dark footer.
-          </p>
-        </div>
-        <figure class="ix-pages__frame">
-          <img
-            src="../assets/case-studies/innovatrix/services.png?v=2"
-            alt="Innovatrix Teams services page full design"
-            width="2880"
-            height="6238"
             loading="lazy"
             decoding="async"
           />
@@ -776,9 +653,9 @@
         <div class="ix-kpi-grid">
           <article class="ix-kpi ix-kpi--good">
             <p class="ix-kpi__badge">Strong</p>
-            <strong>52</strong>
+            <strong>18</strong>
             <span class="ix-kpi__label">Qualified Contact form submits in the first 6 weeks live</span>
-            <p class="ix-kpi__verdict">Healthy enquiry volume for a brand-new site.</p>
+            <p class="ix-kpi__verdict">Steady enquiry flow for a brand-new agency site.</p>
           </article>
           <article class="ix-kpi ix-kpi--good">
             <p class="ix-kpi__badge">On target</p>
