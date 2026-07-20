@@ -1339,10 +1339,6 @@ body.case-study--innovatrix img {
   border: 1px solid rgba(5, 5, 23, 0.06);
 }
 
-.ix-empathy__q--feels {
-  z-index: 2;
-}
-
 .ix-empathy__q h3 {
   margin: 0 0 10px;
   font-family: "Onest", sans-serif;
@@ -1363,6 +1359,27 @@ body.case-study--innovatrix img {
 
 .ix-empathy__center {
   display: none;
+}
+
+@media (min-width: 720px) {
+  .ix-empathy__center {
+    display: grid;
+    place-items: center;
+    position: absolute;
+    inset: 50% auto auto 50%;
+    transform: translate(-50%, -50%);
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    background: #050517;
+    color: #fff;
+    font-family: "Funnel Display", sans-serif;
+    font-size: 0.72rem;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    z-index: 2;
+    box-shadow: 0 8px 24px rgba(5, 5, 23, 0.2);
+  }
 }
 
 /* Survey + quant */
@@ -2210,30 +2227,13 @@ body.case-study--innovatrix .jg-more-work.ix-more-work .project-slide {
 }
 
 body.case-study--innovatrix .jg-more-work.ix-more-work .carousel-nav button {
-  background: #c1ff72;
-  border: 1px solid #c1ff72;
-  color: #050517;
-  font-weight: 700;
-  min-width: 44px;
-  min-height: 44px;
-}
-
-body.case-study--innovatrix .jg-more-work.ix-more-work .carousel-nav button:hover {
-  background: #e4fc60;
-  border-color: #e4fc60;
-  color: #050517;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  color: #fff;
 }
 
 body.case-study--innovatrix .jg-more-work.ix-more-work .project-slide__btn {
-  background: rgba(255, 255, 255, 0.12);
-  border-color: rgba(255, 255, 255, 0.45);
-  color: #fff;
-  font-weight: 600;
-}
-
-body.case-study--innovatrix .jg-more-work.ix-more-work .project-slide__btn:hover {
-  background: #9c6cfc;
-  border-color: #9c6cfc;
+  border-color: rgba(255, 255, 255, 0.25);
   color: #fff;
 }
 
