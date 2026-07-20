@@ -1365,25 +1365,6 @@ body.case-study--innovatrix img {
   display: none;
 }
 
-@media (min-width: 720px) {
-  .ix-empathy__center {
-    display: grid;
-    place-items: center;
-    position: absolute;
-    inset: 50% auto auto 50%;
-    transform: translate(-50%, -50%);
-    width: 96px;
-    height: 96px;
-    border-radius: 50%;
-    background: #050517;
-    color: #fff;
-    font-family: "Funnel Display", sans-serif;
-    font-weight: 600;
-    z-index: 1;
-    box-shadow: 0 12px 40px rgba(5, 5, 23, 0.25);
-  }
-}
-
 /* Survey + quant */
 .ix-survey {
   margin-top: 36px;
@@ -2060,10 +2041,6 @@ body.case-study--innovatrix .jg-more-work.ix-more-work .project-slide p {
 body.case-study--innovatrix .jg-more-work.ix-more-work .project-slide {
   background: rgba(255, 255, 255, 0.06);
   border: 1px solid rgba(255, 255, 255, 0.1);
-}
-
-.ix-empathy__center {
-  display: none;
 }
 
 /* User flow - reference style */
