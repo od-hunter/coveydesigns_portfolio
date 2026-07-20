@@ -511,9 +511,10 @@ body.case-study--innovatrix img {
     display: flex;
     flex-direction: column;
     align-self: stretch;
+    width: auto;
   }
 
-  /* Scale phone to desktop frame height; keep original mobile proportions */
+  /* Height matches desktop; width follows original mobile aspect ratio */
   .ix-hero-duo__phone {
     flex: 1 1 0;
     min-height: 0;
