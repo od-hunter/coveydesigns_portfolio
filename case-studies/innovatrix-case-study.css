@@ -1,0 +1,275 @@
+/* Innovatrix Teams case study */
+
+body.case-study--innovatrix {
+  --ix-purple: #a37bff;
+  --ix-purple-deep: #7c5cff;
+  --ix-purple-soft: rgba(163, 123, 255, 0.14);
+  --ix-navy: #050517;
+  --ix-ink: #101018;
+  --ix-muted: #5c5c6b;
+  --ix-cream: #f7f6fb;
+  background: #fff;
+}
+
+body.case-study--innovatrix .case-hero__tag {
+  background: var(--ix-purple-soft);
+  color: var(--ix-purple-deep);
+}
+
+body.case-study--innovatrix img {
+  image-rendering: auto;
+}
+
+/* ── Introduction ── */
+.ix-intro {
+  background: var(--ix-cream);
+  padding: clamp(72px, 11vw, 120px) var(--page-padding);
+}
+
+.ix-intro__inner {
+  max-width: 780px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.ix-intro__label {
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--ix-purple-deep);
+  margin: 0 0 20px;
+}
+
+.ix-intro__title {
+  font-family: "Inter", sans-serif;
+  font-size: clamp(1.75rem, 4.5vw, 2.75rem);
+  font-weight: 600;
+  line-height: 1.15;
+  color: var(--ix-ink);
+  margin: 0 0 20px;
+}
+
+.ix-intro__text {
+  font-family: "DM Sans", sans-serif;
+  font-size: clamp(1rem, 2vw, 1.125rem);
+  line-height: 1.5;
+  color: var(--ix-muted);
+  margin: 0 auto;
+  max-width: 58ch;
+}
+
+/* ── Goals ── */
+.ix-goals {
+  display: grid;
+  gap: 16px;
+  margin-top: 36px;
+  grid-template-columns: 1fr;
+}
+
+@media (min-width: 720px) {
+  .ix-goals {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.ix-goal {
+  padding: 24px 22px;
+  border-radius: 20px;
+  background: var(--ix-cream);
+  border: 1px solid rgba(16, 16, 24, 0.06);
+}
+
+.ix-goal--accent {
+  background: var(--ix-navy);
+  border-color: transparent;
+  color: #fff;
+}
+
+.ix-goal--accent h3,
+.ix-goal--accent p,
+.ix-goal--accent .ix-goal__num {
+  color: #fff;
+}
+
+.ix-goal__num {
+  margin: 0 0 10px;
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ix-purple-deep);
+}
+
+.ix-goal h3 {
+  margin: 0 0 10px;
+  font-family: "Inter", sans-serif;
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: var(--ix-ink);
+}
+
+.ix-goal p {
+  margin: 0;
+  font-size: 0.98rem;
+  line-height: 1.5;
+  color: var(--ix-muted);
+}
+
+.ix-goal--accent p {
+  color: rgba(255, 255, 255, 0.72);
+}
+
+.ix-goal--accent .ix-goal__num {
+  color: var(--ix-purple);
+}
+
+/* ── Page showcase ── */
+.ix-pages {
+  padding: clamp(48px, 8vw, 88px) var(--page-padding);
+  background: #fff;
+}
+
+.ix-pages--alt {
+  background: var(--ix-cream);
+}
+
+.ix-pages__inner {
+  max-width: min(900px, 100%);
+  margin: 0 auto;
+}
+
+.ix-pages__header {
+  max-width: 640px;
+  margin: 0 auto 36px;
+  text-align: center;
+}
+
+.ix-pages__header h2 {
+  font-family: "Inter", sans-serif;
+  font-size: clamp(1.5rem, 3.5vw, 2.25rem);
+  font-weight: 600;
+  color: var(--ix-ink);
+  margin: 0 0 12px;
+}
+
+.ix-pages__header p {
+  margin: 0;
+  color: var(--ix-muted);
+  font-size: clamp(0.98rem, 1.8vw, 1.08rem);
+  line-height: 1.5;
+}
+
+.ix-pages__frame {
+  margin: 0;
+  border-radius: clamp(16px, 2vw, 24px);
+  overflow: hidden;
+  background: #fff;
+  box-shadow:
+    0 24px 60px rgba(5, 5, 23, 0.12),
+    0 0 0 1px rgba(5, 5, 23, 0.06);
+}
+
+.ix-pages__frame img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.ix-pages__label {
+  display: inline-block;
+  margin-bottom: 14px;
+  padding: 6px 12px;
+  border-radius: 999px;
+  background: var(--ix-purple-soft);
+  color: var(--ix-purple-deep);
+  font-family: "Inter", sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+/* ── Brand strip ── */
+.ix-brand {
+  padding: clamp(56px, 9vw, 96px) var(--page-padding);
+  background: var(--ix-navy);
+  color: #fff;
+}
+
+.ix-brand__inner {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.ix-brand__label {
+  margin: 0 0 16px;
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--ix-purple);
+}
+
+.ix-brand__title {
+  margin: 0 0 18px;
+  font-family: "Inter", sans-serif;
+  font-size: clamp(1.6rem, 4vw, 2.4rem);
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.ix-brand__text {
+  margin: 0 auto 28px;
+  max-width: 52ch;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 1.05rem;
+  line-height: 1.5;
+}
+
+.ix-swatches {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+}
+
+.ix-swatch {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 14px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.ix-swatch__chip {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.ix-swatch__chip--navy {
+  background: #050517;
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.25);
+}
+
+.ix-swatch__chip--purple {
+  background: #a37bff;
+}
+
+.ix-swatch__chip--lime {
+  background: #c1ff72;
+}
+
+.ix-swatch__chip--white {
+  background: #ffffff;
+}

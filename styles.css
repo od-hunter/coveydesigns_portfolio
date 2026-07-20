@@ -14,6 +14,7 @@
   --val-pink: #e11d74;
   --starknet-purple: #7c3aed;
   --transver-teal: #0d9488;
+  --innovatrix-purple: #a37bff;
   --leading-body: 1.5;
 }
 
@@ -845,6 +846,10 @@ body.connect-choice-open {
   animation-delay: 0.36s;
 }
 
+.projects-section.is-visible .project-card:nth-child(5) {
+  animation-delay: 0.46s;
+}
+
 @media (min-width: 1201px) {
   .project-card:hover {
     transform: translateY(-5px);
@@ -954,16 +959,6 @@ body.connect-choice-open {
 @media (min-width: 1201px) {
   .project-card:nth-child(1) .project-btn:hover,
   .project-card:nth-child(1) .project-btn:active {
-    background: var(--airbills-orange);
-    border-color: var(--airbills-orange);
-    color: #ffffff;
-    box-shadow: 2px 2px 0 rgba(240, 103, 10, 0.42);
-    transform: scale(1.08);
-    padding: 11px 22px 12px;
-  }
-
-  .project-card:nth-child(2) .project-btn:hover,
-  .project-card:nth-child(2) .project-btn:active {
     background: var(--allohfarms-green);
     border-color: var(--allohfarms-green);
     color: #ffffff;
@@ -972,8 +967,28 @@ body.connect-choice-open {
     padding: 11px 22px 12px;
   }
 
+  .project-card:nth-child(2) .project-btn:hover,
+  .project-card:nth-child(2) .project-btn:active {
+    background: var(--innovatrix-purple);
+    border-color: var(--innovatrix-purple);
+    color: #ffffff;
+    box-shadow: 2px 2px 0 rgba(163, 123, 255, 0.42);
+    transform: scale(1.08);
+    padding: 11px 22px 12px;
+  }
+
   .project-card:nth-child(3) .project-btn:hover,
   .project-card:nth-child(3) .project-btn:active {
+    background: var(--airbills-orange);
+    border-color: var(--airbills-orange);
+    color: #ffffff;
+    box-shadow: 2px 2px 0 rgba(240, 103, 10, 0.42);
+    transform: scale(1.08);
+    padding: 11px 22px 12px;
+  }
+
+  .project-card:nth-child(4) .project-btn:hover,
+  .project-card:nth-child(4) .project-btn:active {
     background: var(--jago-orange);
     border-color: var(--jago-orange);
     color: #ffffff;
@@ -982,8 +997,8 @@ body.connect-choice-open {
     padding: 11px 22px 12px;
   }
 
-  .project-card:nth-child(4) .project-btn:hover,
-  .project-card:nth-child(4) .project-btn:active {
+  .project-card:nth-child(5) .project-btn:hover,
+  .project-card:nth-child(5) .project-btn:active {
     background: var(--stellopay-blue);
     border-color: var(--stellopay-blue);
     color: #ffffff;
@@ -995,14 +1010,6 @@ body.connect-choice-open {
 
 @media (max-width: 1200px) {
   .project-card:nth-child(1) .project-btn:active {
-    background: var(--airbills-orange);
-    border-color: var(--airbills-orange);
-    color: #ffffff;
-    box-shadow: 2px 2px 0 rgba(240, 103, 10, 0.42);
-    transition-duration: 0.12s;
-  }
-
-  .project-card:nth-child(2) .project-btn:active {
     background: var(--allohfarms-green);
     border-color: var(--allohfarms-green);
     color: #ffffff;
@@ -1010,7 +1017,23 @@ body.connect-choice-open {
     transition-duration: 0.12s;
   }
 
+  .project-card:nth-child(2) .project-btn:active {
+    background: var(--innovatrix-purple);
+    border-color: var(--innovatrix-purple);
+    color: #ffffff;
+    box-shadow: 2px 2px 0 rgba(163, 123, 255, 0.42);
+    transition-duration: 0.12s;
+  }
+
   .project-card:nth-child(3) .project-btn:active {
+    background: var(--airbills-orange);
+    border-color: var(--airbills-orange);
+    color: #ffffff;
+    box-shadow: 2px 2px 0 rgba(240, 103, 10, 0.42);
+    transition-duration: 0.12s;
+  }
+
+  .project-card:nth-child(4) .project-btn:active {
     background: var(--jago-orange);
     border-color: var(--jago-orange);
     color: #ffffff;
@@ -1018,7 +1041,7 @@ body.connect-choice-open {
     transition-duration: 0.12s;
   }
 
-  .project-card:nth-child(4) .project-btn:active {
+  .project-card:nth-child(5) .project-btn:active {
     background: var(--stellopay-blue);
     border-color: var(--stellopay-blue);
     color: #ffffff;
@@ -1140,8 +1163,8 @@ body.connect-choice-open {
       0 0 0 2px var(--connect-pink);
   }
 
-  .projects-grid--all .project-card:nth-child(5) .project-btn:hover,
-  .projects-grid--all .project-card:nth-child(5) .project-btn:active {
+  .projects-grid--all .project-card:nth-child(6) .project-btn:hover,
+  .projects-grid--all .project-card:nth-child(6) .project-btn:active {
     background: var(--val-pink);
     border-color: var(--val-pink);
     color: #ffffff;
@@ -1150,8 +1173,8 @@ body.connect-choice-open {
     padding: 11px 22px 12px;
   }
 
-  .projects-grid--all .project-card:nth-child(6) .project-btn:hover,
-  .projects-grid--all .project-card:nth-child(6) .project-btn:active {
+  .projects-grid--all .project-card:nth-child(7) .project-btn:hover,
+  .projects-grid--all .project-card:nth-child(7) .project-btn:active {
     background: var(--starknet-purple);
     border-color: var(--starknet-purple);
     color: #ffffff;
@@ -1160,8 +1183,8 @@ body.connect-choice-open {
     padding: 11px 22px 12px;
   }
 
-  .projects-grid--all .project-card:nth-child(7) .project-btn:hover,
-  .projects-grid--all .project-card:nth-child(7) .project-btn:active {
+  .projects-grid--all .project-card:nth-child(8) .project-btn:hover,
+  .projects-grid--all .project-card:nth-child(8) .project-btn:active {
     background: var(--transver-teal);
     border-color: var(--transver-teal);
     color: #ffffff;
@@ -1178,21 +1201,21 @@ body.connect-choice-open {
       0 0 0 2px rgba(196, 30, 106, 0.34);
   }
 
-  .projects-grid--all .project-card:nth-child(5) .project-btn:active {
+  .projects-grid--all .project-card:nth-child(6) .project-btn:active {
     background: var(--val-pink);
     border-color: var(--val-pink);
     color: #ffffff;
     box-shadow: 2px 2px 0 rgba(225, 29, 116, 0.42);
   }
 
-  .projects-grid--all .project-card:nth-child(6) .project-btn:active {
+  .projects-grid--all .project-card:nth-child(7) .project-btn:active {
     background: var(--starknet-purple);
     border-color: var(--starknet-purple);
     color: #ffffff;
     box-shadow: 2px 2px 0 rgba(124, 58, 237, 0.42);
   }
 
-  .projects-grid--all .project-card:nth-child(7) .project-btn:active {
+  .projects-grid--all .project-card:nth-child(8) .project-btn:active {
     background: var(--transver-teal);
     border-color: var(--transver-teal);
     color: #ffffff;

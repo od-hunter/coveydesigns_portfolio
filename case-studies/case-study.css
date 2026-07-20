@@ -1218,6 +1218,7 @@ body.case-study .case-hero .case-hero__connect:hover {
 
 .project-slide__tag--fintech { color: var(--airbills-orange); }
 .project-slide__tag--marketplace { color: var(--airbills-mint); }
+.project-slide__tag--agency { color: #a37bff; }
 .project-slide__tag--web3 { color: #f97316; }
 .project-slide__tag--web3-blue { color: #1d8fe8; }
 .project-slide__tag--experience { color: #e11d74; }
